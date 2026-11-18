@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+data/features*/
+*.pt
+!data/cifar100_*_labels.pt

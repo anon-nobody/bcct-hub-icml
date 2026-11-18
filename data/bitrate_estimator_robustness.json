@@ -1,0 +1,3057 @@
+{
+  "estimators": [
+    "effective_rank",
+    "participation_ratio",
+    "gini_spectrum",
+    "spectral_entropy"
+  ],
+  "n_models": 20,
+  "n_pairs": 190,
+  "model_bitrates": {
+    "beit_base_patch16_224": {
+      "effective_rank": 5.771412371780426,
+      "participation_ratio": 7.6913319378050495,
+      "gini_spectrum": 1.1937890667904745,
+      "spectral_entropy": 3.714410780448087
+    },
+    "beit_large_patch16_224": {
+      "effective_rank": 6.370000739830845,
+      "participation_ratio": 8.13033089214224,
+      "gini_spectrum": 1.30193379702126,
+      "spectral_entropy": 4.122917387424198
+    },
+    "clip_vitb16": {
+      "effective_rank": 6.6917025434369695,
+      "participation_ratio": 7.768570927628694,
+      "gini_spectrum": 1.0044183579520936,
+      "spectral_entropy": 5.258084058929942
+    },
+    "clip_vitb32": {
+      "effective_rank": 6.727321526291864,
+      "participation_ratio": 7.790820975149916,
+      "gini_spectrum": 0.9883646498289554,
+      "spectral_entropy": 5.331917242841251
+    },
+    "clip_vitl14": {
+      "effective_rank": 7.249248971685488,
+      "participation_ratio": 8.237465191112209,
+      "gini_spectrum": 1.1750776586668454,
+      "spectral_entropy": 5.878746744183904
+    },
+    "convnext_base": {
+      "effective_rank": 7.954236126518692,
+      "participation_ratio": 8.839136792614958,
+      "gini_spectrum": 1.0447592262213417,
+      "spectral_entropy": 6.700589918902956
+    },
+    "convnext_large": {
+      "effective_rank": 8.109750406665482,
+      "participation_ratio": 9.000117873786069,
+      "gini_spectrum": 0.8828016139888574,
+      "spectral_entropy": 6.8037444249598655
+    },
+    "dinov2_vitb14": {
+      "effective_rank": 8.296460963817578,
+      "participation_ratio": 8.87180022259569,
+      "gini_spectrum": 0.7551470967398931,
+      "spectral_entropy": 7.423040880035374
+    },
+    "dinov2_vitg14": {
+      "effective_rank": 8.53530909347464,
+      "participation_ratio": 9.171187418488302,
+      "gini_spectrum": 0.8372421923050052,
+      "spectral_entropy": 7.699594486067597
+    },
+    "dinov2_vitl14": {
+      "effective_rank": 8.564539264815282,
+      "participation_ratio": 9.140139916712297,
+      "gini_spectrum": 0.9029841420264199,
+      "spectral_entropy": 7.764734634908395
+    },
+    "dinov2_vits14": {
+      "effective_rank": 7.593478438762831,
+      "participation_ratio": 8.06322682858937,
+      "gini_spectrum": 0.6011139834930717,
+      "spectral_entropy": 6.830648014999636
+    },
+    "efficientnet_b0": {
+      "effective_rank": 7.9021928005064,
+      "participation_ratio": 8.88429252808391,
+      "gini_spectrum": 0.9385920035820868,
+      "spectral_entropy": 6.5848909982921136
+    },
+    "mixer_b16_224": {
+      "effective_rank": 7.812943435737051,
+      "participation_ratio": 8.668692201947204,
+      "gini_spectrum": 0.8285613787939122,
+      "spectral_entropy": 6.412130985847405
+    },
+    "resnet101": {
+      "effective_rank": 8.144471640082873,
+      "participation_ratio": 9.101146492163792,
+      "gini_spectrum": 0.7573580864891326,
+      "spectral_entropy": 6.571353211946796
+    },
+    "resnet50": {
+      "effective_rank": 7.730971000891008,
+      "participation_ratio": 8.900881348267955,
+      "gini_spectrum": 0.8388573284529107,
+      "spectral_entropy": 6.068420218445065
+    },
+    "swin_base_patch4_window7_224": {
+      "effective_rank": 8.07449671496102,
+      "participation_ratio": 8.914980293686098,
+      "gini_spectrum": 0.9997032926884958,
+      "spectral_entropy": 6.798983945183982
+    },
+    "vit_base_patch16_224": {
+      "effective_rank": 7.572290176176533,
+      "participation_ratio": 8.493388554729417,
+      "gini_spectrum": 0.9603553641723909,
+      "spectral_entropy": 6.219939685577613
+    },
+    "vit_base_patch16_224.mae": {
+      "effective_rank": 1.6208587482237815,
+      "participation_ratio": 4.212103904278797,
+      "gini_spectrum": 2.1274223619960972,
+      "spectral_entropy": 0.9793051583868626
+    },
+    "vit_large_patch16_224": {
+      "effective_rank": 7.429242574425486,
+      "participation_ratio": 8.630935941663974,
+      "gini_spectrum": 1.0876088151941357,
+      "spectral_entropy": 5.8122169755241355
+    },
+    "vit_large_patch16_224.mae": {
+      "effective_rank": 4.834036755656566,
+      "participation_ratio": 7.197053393805663,
+      "gini_spectrum": 1.596283060754897,
+      "spectral_entropy": 3.010907147961225
+    }
+  },
+  "regime_counts": {
+    "effective_rank": {
+      "Local-Only": 155,
+      "Divergent": 22,
+      "Convergent": 13
+    },
+    "participation_ratio": {
+      "Local-Only": 155,
+      "Divergent": 22,
+      "Convergent": 13
+    },
+    "gini_spectrum": {
+      "Collapsed": 190
+    },
+    "spectral_entropy": {
+      "Local-Only": 154,
+      "Divergent": 22,
+      "Convergent": 13,
+      "Collapsed": 1
+    }
+  },
+  "pairwise_agreement": {
+    "effective_rank vs participation_ratio": {
+      "agreement_rate_pct": 100.0,
+      "agree_count": 190,
+      "total_pairs": 190,
+      "flip_count": 0,
+      "flips": []
+    },
+    "effective_rank vs gini_spectrum": {
+      "agreement_rate_pct": 0.0,
+      "agree_count": 0,
+      "total_pairs": 190,
+      "flip_count": 190,
+      "flips": [
+        {
+          "pair": "beit_base_patch16_224 <-> beit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb16",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb32",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitl14",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_base",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_large",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitb14",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitg14",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitl14",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb16",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb32",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_base",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_large",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitb32",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_base",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_large",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> clip_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_base",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_large",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_base",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_large",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> convnext_large",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> swin_base_patch4_window7_224",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitb14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> swin_base_patch4_window7_224",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitg14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vits14",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vitl14",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet101",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> dinov2_vits14",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> efficientnet_b0",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> mixer_b16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet101",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> mixer_b16_224",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet101",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet101",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet50",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> resnet50",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> swin_base_patch4_window7_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224",
+          "effective_rank": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224",
+          "effective_rank": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        }
+      ]
+    },
+    "effective_rank vs spectral_entropy": {
+      "agreement_rate_pct": 99.47,
+      "agree_count": 189,
+      "total_pairs": 190,
+      "flip_count": 1,
+      "flips": [
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224.mae",
+          "effective_rank": "Local-Only",
+          "spectral_entropy": "Collapsed"
+        }
+      ]
+    },
+    "participation_ratio vs gini_spectrum": {
+      "agreement_rate_pct": 0.0,
+      "agree_count": 0,
+      "total_pairs": 190,
+      "flip_count": 190,
+      "flips": [
+        {
+          "pair": "beit_base_patch16_224 <-> beit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb16",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb32",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitl14",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_base",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_large",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitb14",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitg14",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitl14",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb16",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb32",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_base",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_large",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitb32",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_base",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_large",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> clip_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_base",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_large",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_base",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_large",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> convnext_large",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitb14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitg14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vits14",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vitl14",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet101",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> dinov2_vits14",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> efficientnet_b0",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> mixer_b16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet101",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> mixer_b16_224",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet101",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet101",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet50",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> resnet50",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> swin_base_patch4_window7_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224",
+          "participation_ratio": "Convergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224",
+          "participation_ratio": "Divergent",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        },
+        {
+          "pair": "vit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "gini_spectrum": "Collapsed"
+        }
+      ]
+    },
+    "participation_ratio vs spectral_entropy": {
+      "agreement_rate_pct": 99.47,
+      "agree_count": 189,
+      "total_pairs": 190,
+      "flip_count": 1,
+      "flips": [
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224.mae",
+          "participation_ratio": "Local-Only",
+          "spectral_entropy": "Collapsed"
+        }
+      ]
+    },
+    "gini_spectrum vs spectral_entropy": {
+      "agreement_rate_pct": 0.53,
+      "agree_count": 1,
+      "total_pairs": 190,
+      "flip_count": 189,
+      "flips": [
+        {
+          "pair": "beit_base_patch16_224 <-> beit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb16",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitb32",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> clip_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_base",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb16",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitb32",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> clip_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_base",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitb32",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "clip_vitb16 <-> clip_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_base",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb16 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> clip_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_base",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitb32 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_base",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "clip_vitl14 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> convnext_large",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_base <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitb14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "convnext_large <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "convnext_large <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitg14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitb14 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vitl14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitg14 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> dinov2_vits14",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vitl14 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> efficientnet_b0",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "dinov2_vits14 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "efficientnet_b0 <-> mixer_b16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "efficientnet_b0 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "efficientnet_b0 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "efficientnet_b0 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet101",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "mixer_b16_224 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "mixer_b16_224 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "mixer_b16_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet101 <-> resnet50",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "resnet101 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet101 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet101 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet50 <-> swin_base_patch4_window7_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet50 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "resnet50 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Convergent"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_base_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "vit_base_patch16_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        },
+        {
+          "pair": "vit_base_patch16_224.mae <-> vit_large_patch16_224",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Divergent"
+        },
+        {
+          "pair": "vit_large_patch16_224 <-> vit_large_patch16_224.mae",
+          "gini_spectrum": "Collapsed",
+          "spectral_entropy": "Local-Only"
+        }
+      ]
+    }
+  }
+}

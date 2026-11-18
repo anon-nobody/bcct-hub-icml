@@ -1,0 +1,23 @@
+{
+  "pooled_same_vs_cross_lineage_p": 0.004068731054461736,
+  "coph": 0.933806725783119,
+  "transport_vs_lineagetree_corr": 0.3821290463300692,
+  "within_objective_same_vs_cross_lineage": {
+    "self-supervised": {
+      "same_lineage_mean_tau": 0.3093,
+      "n_same": 8,
+      "cross_lineage_mean_tau": 0.0123,
+      "n_cross": 20,
+      "mannwhitney_p_greater": 4.417394352369498e-05
+    },
+    "supervised": {
+      "same_lineage_mean_tau": 0.537,
+      "n_same": 3,
+      "cross_lineage_mean_tau": 0.352,
+      "n_cross": 33,
+      "mannwhitney_p_greater": 0.14579831932773113
+    }
+  },
+  "pooled_same_lineage_mean_tau": 0.4019,
+  "pooled_cross_lineage_mean_tau": 0.2238
+}

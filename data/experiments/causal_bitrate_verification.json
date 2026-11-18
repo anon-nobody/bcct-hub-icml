@@ -1,0 +1,2334 @@
+{
+  "metadata": {
+    "compression_levels": [
+      1.0,
+      0.9,
+      0.8,
+      0.7,
+      0.6,
+      0.5,
+      0.4,
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.025
+    ],
+    "k": 10,
+    "n_permutations": 100,
+    "seed": 42
+  },
+  "results": [
+    {
+      "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 8.6006,
+          "bitrate_b": 8.9632,
+          "delta": 0.3626,
+          "s_local": 0.5138,
+          "raw_overlap": 0.5147,
+          "tau": 0.4052,
+          "perf_linear": 0.07,
+          "perf_best": 0.1728,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 8.5341,
+          "bitrate_b": 8.9632,
+          "delta": 0.4291,
+          "s_local": 0.5137,
+          "raw_overlap": 0.5147,
+          "tau": 0.4235,
+          "perf_linear": 0.0774,
+          "perf_best": 0.1827,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 8.4371,
+          "bitrate_b": 8.9632,
+          "delta": 0.5261,
+          "s_local": 0.5147,
+          "raw_overlap": 0.5156,
+          "tau": 0.4507,
+          "perf_linear": 0.0898,
+          "perf_best": 0.1994,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 8.3134,
+          "bitrate_b": 8.9632,
+          "delta": 0.6498,
+          "s_local": 0.5143,
+          "raw_overlap": 0.5152,
+          "tau": 0.4817,
+          "perf_linear": 0.1066,
+          "perf_best": 0.2212,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 8.1581,
+          "bitrate_b": 8.9632,
+          "delta": 0.8051,
+          "s_local": 0.5135,
+          "raw_overlap": 0.5145,
+          "tau": 0.5203,
+          "perf_linear": 0.128,
+          "perf_best": 0.246,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.9645,
+          "bitrate_b": 8.9632,
+          "delta": 0.9987,
+          "s_local": 0.5134,
+          "raw_overlap": 0.5143,
+          "tau": 0.5698,
+          "perf_linear": 0.1535,
+          "perf_best": 0.2694,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 7.7119,
+          "bitrate_b": 8.9632,
+          "delta": 1.2514,
+          "s_local": 0.5101,
+          "raw_overlap": 0.5111,
+          "tau": 0.6249,
+          "perf_linear": 0.183,
+          "perf_best": 0.2928,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 7.3726,
+          "bitrate_b": 8.9632,
+          "delta": 1.5906,
+          "s_local": 0.5041,
+          "raw_overlap": 0.5051,
+          "tau": 0.6746,
+          "perf_linear": 0.2135,
+          "perf_best": 0.3165,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 7.1548,
+          "bitrate_b": 8.9632,
+          "delta": 1.8084,
+          "s_local": 0.5,
+          "raw_overlap": 0.501,
+          "tau": 0.6972,
+          "perf_linear": 0.2267,
+          "perf_best": 0.3252,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 6.8772,
+          "bitrate_b": 8.9632,
+          "delta": 2.086,
+          "s_local": 0.4891,
+          "raw_overlap": 0.4902,
+          "tau": 0.7037,
+          "perf_linear": 0.2364,
+          "perf_best": 0.336,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.5202,
+          "bitrate_b": 8.9632,
+          "delta": 2.443,
+          "s_local": 0.4731,
+          "raw_overlap": 0.4741,
+          "tau": 0.6916,
+          "perf_linear": 0.2371,
+          "perf_best": 0.3429,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 5.9854,
+          "bitrate_b": 8.9632,
+          "delta": 2.9778,
+          "s_local": 0.4415,
+          "raw_overlap": 0.4427,
+          "tau": 0.6345,
+          "perf_linear": 0.2187,
+          "perf_best": 0.3447,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 5.6014,
+          "bitrate_b": 8.9632,
+          "delta": 3.3618,
+          "s_local": 0.4201,
+          "raw_overlap": 0.4212,
+          "tau": 0.5663,
+          "perf_linear": 0.1932,
+          "perf_best": 0.3411,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 5.0503,
+          "bitrate_b": 8.9632,
+          "delta": 3.9129,
+          "s_local": 0.3815,
+          "raw_overlap": 0.3827,
+          "tau": 0.4813,
+          "perf_linear": 0.1588,
+          "perf_best": 0.3298,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 4.0956,
+          "bitrate_b": 8.9632,
+          "delta": 4.8676,
+          "s_local": 0.3011,
+          "raw_overlap": 0.3025,
+          "tau": 0.3774,
+          "perf_linear": 0.1101,
+          "perf_best": 0.2918,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.5333,
+        "kappa": 0.7461,
+        "r0": 3.7822,
+        "r2_fit": 0.9958,
+        "r_crit": 3.7822,
+        "r_sat": 6.7272
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 1.107,
+        "kappa": 0.0,
+        "r0": 0.0,
+        "r2_fit": -0.0,
+        "r_crit": 0.0,
+        "r_sat": 2197224.5773
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8908,
+          "bic": -111.91,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.9466,
+          "bic": -122.63,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9958,
+          "bic": -158.22,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9466,
+          "bic": -119.92,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9958,
+        "null_mean": 0.0527,
+        "null_std": 0.1364,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "clip_vitb16 <-> clip_vitl14",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 6.8409,
+          "bitrate_b": 7.4421,
+          "delta": 0.6011,
+          "s_local": 0.2907,
+          "raw_overlap": 0.2921,
+          "tau": 0.9405,
+          "perf_linear": 0.327,
+          "perf_best": 0.3477,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 6.8264,
+          "bitrate_b": 7.4421,
+          "delta": 0.6157,
+          "s_local": 0.2907,
+          "raw_overlap": 0.2921,
+          "tau": 0.9426,
+          "perf_linear": 0.3279,
+          "perf_best": 0.3478,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 6.7905,
+          "bitrate_b": 7.4421,
+          "delta": 0.6515,
+          "s_local": 0.2903,
+          "raw_overlap": 0.2917,
+          "tau": 0.9413,
+          "perf_linear": 0.3309,
+          "perf_best": 0.3516,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 6.7315,
+          "bitrate_b": 7.4421,
+          "delta": 0.7106,
+          "s_local": 0.2915,
+          "raw_overlap": 0.2929,
+          "tau": 0.9346,
+          "perf_linear": 0.3365,
+          "perf_best": 0.3601,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 6.6455,
+          "bitrate_b": 7.4421,
+          "delta": 0.7966,
+          "s_local": 0.2915,
+          "raw_overlap": 0.2929,
+          "tau": 0.9272,
+          "perf_linear": 0.3429,
+          "perf_best": 0.3699,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 6.5247,
+          "bitrate_b": 7.4421,
+          "delta": 0.9174,
+          "s_local": 0.292,
+          "raw_overlap": 0.2934,
+          "tau": 0.9253,
+          "perf_linear": 0.3508,
+          "perf_best": 0.3791,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 6.3525,
+          "bitrate_b": 7.4421,
+          "delta": 1.0896,
+          "s_local": 0.2906,
+          "raw_overlap": 0.292,
+          "tau": 0.9188,
+          "perf_linear": 0.359,
+          "perf_best": 0.3907,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 6.1083,
+          "bitrate_b": 7.4421,
+          "delta": 1.3338,
+          "s_local": 0.288,
+          "raw_overlap": 0.2894,
+          "tau": 0.9113,
+          "perf_linear": 0.3635,
+          "perf_best": 0.3988,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 5.9455,
+          "bitrate_b": 7.4421,
+          "delta": 1.4965,
+          "s_local": 0.2848,
+          "raw_overlap": 0.2862,
+          "tau": 0.8964,
+          "perf_linear": 0.3624,
+          "perf_best": 0.4042,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 5.7271,
+          "bitrate_b": 7.4421,
+          "delta": 1.715,
+          "s_local": 0.2797,
+          "raw_overlap": 0.2812,
+          "tau": 0.878,
+          "perf_linear": 0.3573,
+          "perf_best": 0.4069,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 5.427,
+          "bitrate_b": 7.4421,
+          "delta": 2.0151,
+          "s_local": 0.2706,
+          "raw_overlap": 0.272,
+          "tau": 0.8405,
+          "perf_linear": 0.3447,
+          "perf_best": 0.4101,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 4.9923,
+          "bitrate_b": 7.4421,
+          "delta": 2.4497,
+          "s_local": 0.2513,
+          "raw_overlap": 0.2528,
+          "tau": 0.7739,
+          "perf_linear": 0.3148,
+          "perf_best": 0.4068,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 4.658,
+          "bitrate_b": 7.4421,
+          "delta": 2.7841,
+          "s_local": 0.2331,
+          "raw_overlap": 0.2347,
+          "tau": 0.7298,
+          "perf_linear": 0.2905,
+          "perf_best": 0.398,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 4.1673,
+          "bitrate_b": 7.4421,
+          "delta": 3.2748,
+          "s_local": 0.1998,
+          "raw_overlap": 0.2015,
+          "tau": 0.6774,
+          "perf_linear": 0.2549,
+          "perf_best": 0.3763,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 3.2845,
+          "bitrate_b": 7.4421,
+          "delta": 4.1576,
+          "s_local": 0.1338,
+          "raw_overlap": 0.1356,
+          "tau": 0.5852,
+          "perf_linear": 0.187,
+          "perf_best": 0.3195,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.3008,
+        "kappa": 1.1112,
+        "r0": 3.5116,
+        "r2_fit": 0.9973,
+        "r_crit": 3.5116,
+        "r_sat": 5.4891
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 1.0966,
+        "kappa": 0.497,
+        "r0": 3.1133,
+        "r2_fit": 0.9891,
+        "r_crit": 3.1133,
+        "r_sat": 7.5346
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8822,
+          "bic": -120.6,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.9404,
+          "bic": -130.84,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9973,
+          "bic": -174.39,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9404,
+          "bic": -128.12,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9973,
+        "null_mean": 0.0616,
+        "null_std": 0.1623,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "resnet50 <-> resnet101",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 8.1057,
+          "bitrate_b": 8.594,
+          "delta": 0.4883,
+          "s_local": 0.3194,
+          "raw_overlap": 0.3208,
+          "tau": 1.0,
+          "perf_linear": 0.0963,
+          "perf_best": 0.0822,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 8.0941,
+          "bitrate_b": 8.594,
+          "delta": 0.4999,
+          "s_local": 0.3194,
+          "raw_overlap": 0.3208,
+          "tau": 1.0,
+          "perf_linear": 0.0956,
+          "perf_best": 0.0794,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 8.0666,
+          "bitrate_b": 8.594,
+          "delta": 0.5275,
+          "s_local": 0.3195,
+          "raw_overlap": 0.3208,
+          "tau": 1.0,
+          "perf_linear": 0.0973,
+          "perf_best": 0.0762,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 8.0204,
+          "bitrate_b": 8.594,
+          "delta": 0.5736,
+          "s_local": 0.3195,
+          "raw_overlap": 0.3208,
+          "tau": 1.0,
+          "perf_linear": 0.0987,
+          "perf_best": 0.0749,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 7.9502,
+          "bitrate_b": 8.594,
+          "delta": 0.6438,
+          "s_local": 0.3197,
+          "raw_overlap": 0.321,
+          "tau": 1.0,
+          "perf_linear": 0.1014,
+          "perf_best": 0.0769,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.8477,
+          "bitrate_b": 8.594,
+          "delta": 0.7463,
+          "s_local": 0.3198,
+          "raw_overlap": 0.3211,
+          "tau": 1.0,
+          "perf_linear": 0.1058,
+          "perf_best": 0.0863,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 7.6978,
+          "bitrate_b": 8.594,
+          "delta": 0.8962,
+          "s_local": 0.3204,
+          "raw_overlap": 0.3217,
+          "tau": 1.0,
+          "perf_linear": 0.1144,
+          "perf_best": 0.1028,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 7.4759,
+          "bitrate_b": 8.594,
+          "delta": 1.1182,
+          "s_local": 0.3202,
+          "raw_overlap": 0.3215,
+          "tau": 1.0,
+          "perf_linear": 0.1316,
+          "perf_best": 0.1304,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 7.3236,
+          "bitrate_b": 8.594,
+          "delta": 1.2704,
+          "s_local": 0.3202,
+          "raw_overlap": 0.3215,
+          "tau": 0.9843,
+          "perf_linear": 0.1444,
+          "perf_best": 0.1467,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 7.1252,
+          "bitrate_b": 8.594,
+          "delta": 1.4688,
+          "s_local": 0.3194,
+          "raw_overlap": 0.3207,
+          "tau": 0.97,
+          "perf_linear": 0.1625,
+          "perf_best": 0.1675,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.8601,
+          "bitrate_b": 8.594,
+          "delta": 1.7339,
+          "s_local": 0.3186,
+          "raw_overlap": 0.32,
+          "tau": 0.9906,
+          "perf_linear": 0.1845,
+          "perf_best": 0.1862,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 6.4659,
+          "bitrate_b": 8.594,
+          "delta": 2.1281,
+          "s_local": 0.3136,
+          "raw_overlap": 0.315,
+          "tau": 1.0,
+          "perf_linear": 0.208,
+          "perf_best": 0.2058,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 6.1795,
+          "bitrate_b": 8.594,
+          "delta": 2.4145,
+          "s_local": 0.3083,
+          "raw_overlap": 0.3096,
+          "tau": 1.0,
+          "perf_linear": 0.2163,
+          "perf_best": 0.216,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 5.7653,
+          "bitrate_b": 8.594,
+          "delta": 2.8287,
+          "s_local": 0.2981,
+          "raw_overlap": 0.2995,
+          "tau": 0.9717,
+          "perf_linear": 0.2165,
+          "perf_best": 0.2228,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 5.0329,
+          "bitrate_b": 8.594,
+          "delta": 3.5611,
+          "s_local": 0.2678,
+          "raw_overlap": 0.2693,
+          "tau": 0.8317,
+          "perf_linear": 0.1929,
+          "perf_best": 0.232,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.3213,
+        "kappa": 1.4163,
+        "r0": 3.9041,
+        "r2_fit": 0.9935,
+        "r_crit": 3.9041,
+        "r_sat": 5.4555
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 1.441,
+        "kappa": 0.1064,
+        "r0": 0.0,
+        "r2_fit": 0.5102,
+        "r_crit": 0.0,
+        "r_sat": 20.6564
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.7186,
+          "bic": -142.56,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.778,
+          "bic": -146.11,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9935,
+          "bic": -196.4,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.7779,
+          "bic": -143.4,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9935,
+        "null_mean": 0.04,
+        "null_std": 0.096,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "dinov2_vitl14 <-> beit_large_patch16_224",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 8.9635,
+          "bitrate_b": 6.5546,
+          "delta": 2.4089,
+          "s_local": 0.0723,
+          "raw_overlap": 0.0741,
+          "tau": 0.088,
+          "perf_linear": 0.0016,
+          "perf_best": 0.0187,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 8.8995,
+          "bitrate_b": 6.5546,
+          "delta": 2.3449,
+          "s_local": 0.0723,
+          "raw_overlap": 0.0742,
+          "tau": 0.0959,
+          "perf_linear": 0.0017,
+          "perf_best": 0.0173,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 8.8083,
+          "bitrate_b": 6.5546,
+          "delta": 2.2537,
+          "s_local": 0.0724,
+          "raw_overlap": 0.0743,
+          "tau": 0.1071,
+          "perf_linear": 0.0017,
+          "perf_best": 0.0157,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 8.6898,
+          "bitrate_b": 6.5546,
+          "delta": 2.1352,
+          "s_local": 0.0726,
+          "raw_overlap": 0.0744,
+          "tau": 0.0995,
+          "perf_linear": 0.0017,
+          "perf_best": 0.0168,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 8.541,
+          "bitrate_b": 6.5546,
+          "delta": 1.9864,
+          "s_local": 0.0725,
+          "raw_overlap": 0.0744,
+          "tau": 0.072,
+          "perf_linear": 0.0017,
+          "perf_best": 0.0235,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 8.3523,
+          "bitrate_b": 6.5546,
+          "delta": 1.7977,
+          "s_local": 0.0724,
+          "raw_overlap": 0.0743,
+          "tau": 0.0545,
+          "perf_linear": 0.0017,
+          "perf_best": 0.0318,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 8.1055,
+          "bitrate_b": 6.5546,
+          "delta": 1.5509,
+          "s_local": 0.0725,
+          "raw_overlap": 0.0744,
+          "tau": 0.0395,
+          "perf_linear": 0.0018,
+          "perf_best": 0.0464,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 7.7771,
+          "bitrate_b": 6.5546,
+          "delta": 1.2225,
+          "s_local": 0.0723,
+          "raw_overlap": 0.0742,
+          "tau": 0.0319,
+          "perf_linear": 0.0021,
+          "perf_best": 0.0652,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 7.5638,
+          "bitrate_b": 6.5546,
+          "delta": 1.0092,
+          "s_local": 0.0724,
+          "raw_overlap": 0.0743,
+          "tau": 0.029,
+          "perf_linear": 0.0021,
+          "perf_best": 0.0739,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 7.2937,
+          "bitrate_b": 6.5546,
+          "delta": 0.7391,
+          "s_local": 0.0721,
+          "raw_overlap": 0.0739,
+          "tau": 0.0303,
+          "perf_linear": 0.0026,
+          "perf_best": 0.086,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.9465,
+          "bitrate_b": 6.5546,
+          "delta": 0.3919,
+          "s_local": 0.072,
+          "raw_overlap": 0.0739,
+          "tau": 0.0341,
+          "perf_linear": 0.0032,
+          "perf_best": 0.0945,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 6.4444,
+          "bitrate_b": 6.5546,
+          "delta": 0.1102,
+          "s_local": 0.0708,
+          "raw_overlap": 0.0727,
+          "tau": 0.0502,
+          "perf_linear": 0.0047,
+          "perf_best": 0.0931,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 6.0626,
+          "bitrate_b": 6.5546,
+          "delta": 0.492,
+          "s_local": 0.0688,
+          "raw_overlap": 0.0706,
+          "tau": 0.0683,
+          "perf_linear": 0.0072,
+          "perf_best": 0.1048,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 5.5237,
+          "bitrate_b": 6.5546,
+          "delta": 1.031,
+          "s_local": 0.0668,
+          "raw_overlap": 0.0686,
+          "tau": 0.107,
+          "perf_linear": 0.0126,
+          "perf_best": 0.118,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 4.5273,
+          "bitrate_b": 6.5546,
+          "delta": 2.0273,
+          "s_local": 0.0617,
+          "raw_overlap": 0.0636,
+          "tau": 0.2136,
+          "perf_linear": 0.0317,
+          "perf_best": 0.1484,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.1105,
+        "kappa": 0.0781,
+        "r0": 0.0,
+        "r2_fit": 0.7655,
+        "r_crit": 0.0,
+        "r_sat": 28.1191
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.1495,
+        "kappa": 0.0,
+        "r0": 12.2708,
+        "r2_fit": -0.0,
+        "r_crit": 12.2708,
+        "r_sat": 2197236.8481
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.7548,
+          "bic": -190.61,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.8337,
+          "bic": -196.43,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.7655,
+          "bic": -188.57,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.8336,
+          "bic": -193.72,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.7655,
+        "null_mean": 0.0366,
+        "null_std": 0.0818,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224 <-> resnet50",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 7.7697,
+          "bitrate_b": 8.1049,
+          "delta": 0.3352,
+          "s_local": 0.2137,
+          "raw_overlap": 0.2153,
+          "tau": 0.2532,
+          "perf_linear": 0.022,
+          "perf_best": 0.0867,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 7.7348,
+          "bitrate_b": 8.1049,
+          "delta": 0.37,
+          "s_local": 0.2138,
+          "raw_overlap": 0.2154,
+          "tau": 0.2547,
+          "perf_linear": 0.0219,
+          "perf_best": 0.0859,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 7.6819,
+          "bitrate_b": 8.1049,
+          "delta": 0.423,
+          "s_local": 0.2139,
+          "raw_overlap": 0.2155,
+          "tau": 0.2518,
+          "perf_linear": 0.022,
+          "perf_best": 0.0872,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 7.6091,
+          "bitrate_b": 8.1049,
+          "delta": 0.4958,
+          "s_local": 0.2139,
+          "raw_overlap": 0.2155,
+          "tau": 0.2434,
+          "perf_linear": 0.0219,
+          "perf_best": 0.0901,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 7.5099,
+          "bitrate_b": 8.1049,
+          "delta": 0.595,
+          "s_local": 0.2141,
+          "raw_overlap": 0.2156,
+          "tau": 0.2349,
+          "perf_linear": 0.0221,
+          "perf_best": 0.0943,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.3755,
+          "bitrate_b": 8.1049,
+          "delta": 0.7294,
+          "s_local": 0.2143,
+          "raw_overlap": 0.2159,
+          "tau": 0.2272,
+          "perf_linear": 0.0227,
+          "perf_best": 0.0998,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 7.1838,
+          "bitrate_b": 8.1049,
+          "delta": 0.921,
+          "s_local": 0.2135,
+          "raw_overlap": 0.2151,
+          "tau": 0.223,
+          "perf_linear": 0.0238,
+          "perf_best": 0.1069,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 6.9053,
+          "bitrate_b": 8.1049,
+          "delta": 1.1996,
+          "s_local": 0.2131,
+          "raw_overlap": 0.2146,
+          "tau": 0.2346,
+          "perf_linear": 0.0268,
+          "perf_best": 0.1143,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 6.717,
+          "bitrate_b": 8.1049,
+          "delta": 1.3879,
+          "s_local": 0.2123,
+          "raw_overlap": 0.2139,
+          "tau": 0.253,
+          "perf_linear": 0.03,
+          "perf_best": 0.1185,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 6.4691,
+          "bitrate_b": 8.1049,
+          "delta": 1.6358,
+          "s_local": 0.2099,
+          "raw_overlap": 0.2115,
+          "tau": 0.2918,
+          "perf_linear": 0.0355,
+          "perf_best": 0.1216,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.1436,
+          "bitrate_b": 8.1049,
+          "delta": 1.9613,
+          "s_local": 0.2053,
+          "raw_overlap": 0.2069,
+          "tau": 0.3617,
+          "perf_linear": 0.0447,
+          "perf_best": 0.1236,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 5.6508,
+          "bitrate_b": 8.1049,
+          "delta": 2.4541,
+          "s_local": 0.1987,
+          "raw_overlap": 0.2003,
+          "tau": 0.4767,
+          "perf_linear": 0.0599,
+          "perf_best": 0.1256,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 5.2983,
+          "bitrate_b": 8.1049,
+          "delta": 2.8066,
+          "s_local": 0.1907,
+          "raw_overlap": 0.1923,
+          "tau": 0.5571,
+          "perf_linear": 0.0709,
+          "perf_best": 0.1273,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 4.7904,
+          "bitrate_b": 8.1049,
+          "delta": 3.3144,
+          "s_local": 0.1753,
+          "raw_overlap": 0.1769,
+          "tau": 0.6321,
+          "perf_linear": 0.0846,
+          "perf_best": 0.1339,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 3.9099,
+          "bitrate_b": 8.1049,
+          "delta": 4.1949,
+          "s_local": 0.1393,
+          "raw_overlap": 0.141,
+          "tau": 0.6139,
+          "perf_linear": 0.0908,
+          "perf_best": 0.148,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.2173,
+        "kappa": 1.0261,
+        "r0": 3.3571,
+        "r2_fit": 0.9978,
+        "r_crit": 3.3571,
+        "r_sat": 5.4985
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.6812,
+        "kappa": 0.0,
+        "r0": 12.9046,
+        "r2_fit": -0.0,
+        "r_crit": 12.9046,
+        "r_sat": 2197237.4819
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8227,
+          "bic": -137.73,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.8912,
+          "bic": -145.06,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9978,
+          "bic": -200.97,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.8912,
+          "bic": -142.34,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9978,
+        "null_mean": 0.0599,
+        "null_std": 0.1653,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "dinov2_vitb14 <-> clip_vitb16",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 8.6006,
+          "bitrate_b": 6.8408,
+          "delta": 1.7598,
+          "s_local": 0.2241,
+          "raw_overlap": 0.2256,
+          "tau": 0.0448,
+          "perf_linear": 0.0079,
+          "perf_best": 0.1767,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 8.5341,
+          "bitrate_b": 6.8408,
+          "delta": 1.6933,
+          "s_local": 0.2241,
+          "raw_overlap": 0.2256,
+          "tau": 0.0435,
+          "perf_linear": 0.0077,
+          "perf_best": 0.1771,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 8.4371,
+          "bitrate_b": 6.8408,
+          "delta": 1.5963,
+          "s_local": 0.2245,
+          "raw_overlap": 0.226,
+          "tau": 0.0385,
+          "perf_linear": 0.0074,
+          "perf_best": 0.1927,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 8.3134,
+          "bitrate_b": 6.8408,
+          "delta": 1.4726,
+          "s_local": 0.2242,
+          "raw_overlap": 0.2257,
+          "tau": 0.0316,
+          "perf_linear": 0.0069,
+          "perf_best": 0.2196,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 8.1581,
+          "bitrate_b": 6.8408,
+          "delta": 1.3173,
+          "s_local": 0.224,
+          "raw_overlap": 0.2255,
+          "tau": 0.0285,
+          "perf_linear": 0.0069,
+          "perf_best": 0.241,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.9645,
+          "bitrate_b": 6.8408,
+          "delta": 1.1237,
+          "s_local": 0.2241,
+          "raw_overlap": 0.2256,
+          "tau": 0.0262,
+          "perf_linear": 0.007,
+          "perf_best": 0.2682,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 7.7119,
+          "bitrate_b": 6.8408,
+          "delta": 0.871,
+          "s_local": 0.2241,
+          "raw_overlap": 0.2256,
+          "tau": 0.0237,
+          "perf_linear": 0.007,
+          "perf_best": 0.2939,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 7.3726,
+          "bitrate_b": 6.8408,
+          "delta": 0.5317,
+          "s_local": 0.2224,
+          "raw_overlap": 0.224,
+          "tau": 0.023,
+          "perf_linear": 0.0073,
+          "perf_best": 0.3172,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 7.1548,
+          "bitrate_b": 6.8408,
+          "delta": 0.3139,
+          "s_local": 0.222,
+          "raw_overlap": 0.2235,
+          "tau": 0.0227,
+          "perf_linear": 0.0075,
+          "perf_best": 0.3322,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 6.8772,
+          "bitrate_b": 6.8408,
+          "delta": 0.0363,
+          "s_local": 0.2203,
+          "raw_overlap": 0.2219,
+          "tau": 0.0235,
+          "perf_linear": 0.008,
+          "perf_best": 0.3395,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.5202,
+          "bitrate_b": 6.8408,
+          "delta": 0.3207,
+          "s_local": 0.2162,
+          "raw_overlap": 0.2178,
+          "tau": 0.0252,
+          "perf_linear": 0.0088,
+          "perf_best": 0.3498,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 5.9854,
+          "bitrate_b": 6.8408,
+          "delta": 0.8554,
+          "s_local": 0.2102,
+          "raw_overlap": 0.2117,
+          "tau": 0.029,
+          "perf_linear": 0.0103,
+          "perf_best": 0.3543,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 5.6014,
+          "bitrate_b": 6.8408,
+          "delta": 1.2395,
+          "s_local": 0.2045,
+          "raw_overlap": 0.206,
+          "tau": 0.0355,
+          "perf_linear": 0.0126,
+          "perf_best": 0.3555,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 5.0503,
+          "bitrate_b": 6.8408,
+          "delta": 1.7906,
+          "s_local": 0.195,
+          "raw_overlap": 0.1965,
+          "tau": 0.0476,
+          "perf_linear": 0.0168,
+          "perf_best": 0.3523,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 4.0956,
+          "bitrate_b": 6.8408,
+          "delta": 2.7453,
+          "s_local": 0.1684,
+          "raw_overlap": 0.17,
+          "tau": 0.1214,
+          "perf_linear": 0.04,
+          "perf_best": 0.3291,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.2274,
+        "kappa": 0.7982,
+        "r0": 2.7916,
+        "r2_fit": 0.9971,
+        "r_crit": 2.7916,
+        "r_sat": 5.5443
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.0753,
+        "kappa": 0.0,
+        "r0": 10.1058,
+        "r2_fit": -0.0,
+        "r_crit": 10.1058,
+        "r_sat": 2197234.6832
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8252,
+          "bic": -146.52,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.8984,
+          "bic": -154.66,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9971,
+          "bic": -205.21,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.8984,
+          "bic": -151.95,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9971,
+        "null_mean": 0.038,
+        "null_std": 0.0929,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224.mae <-> vit_base_patch16_224",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 1.6488,
+          "bitrate_b": 7.7695,
+          "delta": 6.1207,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0285,
+          "tau": 0.1959,
+          "perf_linear": 0.0275,
+          "perf_best": 0.1402,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 1.6485,
+          "bitrate_b": 7.7695,
+          "delta": 6.1211,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0285,
+          "tau": 0.1969,
+          "perf_linear": 0.0274,
+          "perf_best": 0.1394,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 1.6476,
+          "bitrate_b": 7.7695,
+          "delta": 6.1219,
+          "s_local": 0.0266,
+          "raw_overlap": 0.0285,
+          "tau": 0.2019,
+          "perf_linear": 0.0274,
+          "perf_best": 0.136,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 1.6462,
+          "bitrate_b": 7.7695,
+          "delta": 6.1233,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0285,
+          "tau": 0.2035,
+          "perf_linear": 0.0274,
+          "perf_best": 0.1348,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 1.6439,
+          "bitrate_b": 7.7695,
+          "delta": 6.1256,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0284,
+          "tau": 0.2101,
+          "perf_linear": 0.0274,
+          "perf_best": 0.1304,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 1.6404,
+          "bitrate_b": 7.7695,
+          "delta": 6.1291,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0284,
+          "tau": 0.2072,
+          "perf_linear": 0.0273,
+          "perf_best": 0.1318,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 1.6346,
+          "bitrate_b": 7.7695,
+          "delta": 6.1349,
+          "s_local": 0.0264,
+          "raw_overlap": 0.0284,
+          "tau": 0.2047,
+          "perf_linear": 0.0271,
+          "perf_best": 0.1322,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 1.6247,
+          "bitrate_b": 7.7695,
+          "delta": 6.1449,
+          "s_local": 0.0266,
+          "raw_overlap": 0.0285,
+          "tau": 0.1873,
+          "perf_linear": 0.0266,
+          "perf_best": 0.1422,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 1.617,
+          "bitrate_b": 7.7695,
+          "delta": 6.1525,
+          "s_local": 0.0265,
+          "raw_overlap": 0.0284,
+          "tau": 0.1751,
+          "perf_linear": 0.0263,
+          "perf_best": 0.1499,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 1.606,
+          "bitrate_b": 7.7695,
+          "delta": 6.1635,
+          "s_local": 0.0264,
+          "raw_overlap": 0.0283,
+          "tau": 0.163,
+          "perf_linear": 0.0256,
+          "perf_best": 0.1572,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 1.5899,
+          "bitrate_b": 7.7695,
+          "delta": 6.1796,
+          "s_local": 0.0262,
+          "raw_overlap": 0.0281,
+          "tau": 0.1519,
+          "perf_linear": 0.0247,
+          "perf_best": 0.1623,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 1.5627,
+          "bitrate_b": 7.7695,
+          "delta": 6.2068,
+          "s_local": 0.0255,
+          "raw_overlap": 0.0274,
+          "tau": 0.1335,
+          "perf_linear": 0.0228,
+          "perf_best": 0.171,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 1.5407,
+          "bitrate_b": 7.7695,
+          "delta": 6.2288,
+          "s_local": 0.0254,
+          "raw_overlap": 0.0273,
+          "tau": 0.1239,
+          "perf_linear": 0.0214,
+          "perf_best": 0.1726,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 1.5058,
+          "bitrate_b": 7.7695,
+          "delta": 6.2637,
+          "s_local": 0.0249,
+          "raw_overlap": 0.0268,
+          "tau": 0.1077,
+          "perf_linear": 0.0188,
+          "perf_best": 0.1748,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 1.4347,
+          "bitrate_b": 7.7695,
+          "delta": 6.3348,
+          "s_local": 0.0226,
+          "raw_overlap": 0.0246,
+          "tau": 0.0864,
+          "perf_linear": 0.0144,
+          "perf_best": 0.1662,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.0271,
+        "kappa": 10.5506,
+        "r0": 1.282,
+        "r2_fit": 0.9871,
+        "r_crit": 1.282,
+        "r_sat": 1.4903
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 1.0505,
+        "kappa": 5.2553,
+        "r0": 1.9189,
+        "r2_fit": 0.9679,
+        "r_crit": 1.9189,
+        "r_sat": 2.337
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.9057,
+          "bic": -236.32,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.9166,
+          "bic": -238.16,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9871,
+          "bic": -263.43,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9166,
+          "bic": -235.45,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9871,
+        "null_mean": 0.0635,
+        "null_std": 0.1843,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "dinov2_vits14 <-> dinov2_vitg14",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 7.7518,
+          "bitrate_b": 9.0547,
+          "delta": 1.3029,
+          "s_local": 0.344,
+          "raw_overlap": 0.3453,
+          "tau": 0.0993,
+          "perf_linear": 0.022,
+          "perf_best": 0.2217,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 7.6896,
+          "bitrate_b": 9.0547,
+          "delta": 1.3651,
+          "s_local": 0.3445,
+          "raw_overlap": 0.3458,
+          "tau": 0.1032,
+          "perf_linear": 0.0234,
+          "perf_best": 0.2272,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 7.5936,
+          "bitrate_b": 9.0547,
+          "delta": 1.4611,
+          "s_local": 0.3444,
+          "raw_overlap": 0.3457,
+          "tau": 0.1114,
+          "perf_linear": 0.0262,
+          "perf_best": 0.2352,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 7.4657,
+          "bitrate_b": 9.0547,
+          "delta": 1.589,
+          "s_local": 0.3446,
+          "raw_overlap": 0.3459,
+          "tau": 0.1254,
+          "perf_linear": 0.0309,
+          "perf_best": 0.2461,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 7.3078,
+          "bitrate_b": 9.0547,
+          "delta": 1.7469,
+          "s_local": 0.3451,
+          "raw_overlap": 0.3464,
+          "tau": 0.1476,
+          "perf_linear": 0.0377,
+          "perf_best": 0.2554,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.1077,
+          "bitrate_b": 9.0547,
+          "delta": 1.947,
+          "s_local": 0.3436,
+          "raw_overlap": 0.3449,
+          "tau": 0.1796,
+          "perf_linear": 0.0472,
+          "perf_best": 0.263,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 6.8412,
+          "bitrate_b": 9.0547,
+          "delta": 2.2135,
+          "s_local": 0.3421,
+          "raw_overlap": 0.3434,
+          "tau": 0.2195,
+          "perf_linear": 0.0602,
+          "perf_best": 0.2742,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 6.4908,
+          "bitrate_b": 9.0547,
+          "delta": 2.5639,
+          "s_local": 0.336,
+          "raw_overlap": 0.3373,
+          "tau": 0.2654,
+          "perf_linear": 0.0736,
+          "perf_best": 0.2775,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 6.2625,
+          "bitrate_b": 9.0547,
+          "delta": 2.7922,
+          "s_local": 0.33,
+          "raw_overlap": 0.3313,
+          "tau": 0.2868,
+          "perf_linear": 0.0798,
+          "perf_best": 0.2783,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 5.9618,
+          "bitrate_b": 9.0547,
+          "delta": 3.0929,
+          "s_local": 0.3232,
+          "raw_overlap": 0.3246,
+          "tau": 0.3067,
+          "perf_linear": 0.0859,
+          "perf_best": 0.2801,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 5.5854,
+          "bitrate_b": 9.0547,
+          "delta": 3.4692,
+          "s_local": 0.3076,
+          "raw_overlap": 0.309,
+          "tau": 0.3129,
+          "perf_linear": 0.0865,
+          "perf_best": 0.2765,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 5.0447,
+          "bitrate_b": 9.0547,
+          "delta": 4.01,
+          "s_local": 0.281,
+          "raw_overlap": 0.2825,
+          "tau": 0.2953,
+          "perf_linear": 0.0795,
+          "perf_best": 0.2693,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 4.6296,
+          "bitrate_b": 9.0547,
+          "delta": 4.4251,
+          "s_local": 0.2556,
+          "raw_overlap": 0.2571,
+          "tau": 0.2782,
+          "perf_linear": 0.071,
+          "perf_best": 0.2552,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 4.0991,
+          "bitrate_b": 9.0547,
+          "delta": 4.9556,
+          "s_local": 0.2217,
+          "raw_overlap": 0.2233,
+          "tau": 0.2571,
+          "perf_linear": 0.062,
+          "perf_best": 0.2413,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 3.0646,
+          "bitrate_b": 9.0547,
+          "delta": 5.9901,
+          "s_local": 0.1416,
+          "raw_overlap": 0.1433,
+          "tau": 0.242,
+          "perf_linear": 0.0448,
+          "perf_best": 0.1853,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.3553,
+        "kappa": 0.9115,
+        "r0": 3.5416,
+        "r2_fit": 0.9981,
+        "r_crit": 3.5416,
+        "r_sat": 5.9521
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.4307,
+        "kappa": 0.0,
+        "r0": 6.7808,
+        "r2_fit": -0.0,
+        "r_crit": 6.7808,
+        "r_sat": 2197231.3582
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8812,
+          "bic": -112.34,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.9511,
+          "bic": -125.67,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9981,
+          "bic": -171.85,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9511,
+          "bic": -122.95,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9981,
+        "null_mean": 0.0593,
+        "null_std": 0.1505,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "clip_vitb32 <-> clip_vitl14",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 6.855,
+          "bitrate_b": 7.4421,
+          "delta": 0.5871,
+          "s_local": 0.2455,
+          "raw_overlap": 0.247,
+          "tau": 0.8328,
+          "perf_linear": 0.249,
+          "perf_best": 0.2989,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 6.8406,
+          "bitrate_b": 7.4421,
+          "delta": 0.6015,
+          "s_local": 0.2457,
+          "raw_overlap": 0.2472,
+          "tau": 0.8404,
+          "perf_linear": 0.2502,
+          "perf_best": 0.2978,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 6.8044,
+          "bitrate_b": 7.4421,
+          "delta": 0.6377,
+          "s_local": 0.2456,
+          "raw_overlap": 0.2471,
+          "tau": 0.8332,
+          "perf_linear": 0.2539,
+          "perf_best": 0.3047,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 6.7427,
+          "bitrate_b": 7.4421,
+          "delta": 0.6994,
+          "s_local": 0.2457,
+          "raw_overlap": 0.2472,
+          "tau": 0.8417,
+          "perf_linear": 0.2604,
+          "perf_best": 0.3093,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 6.6534,
+          "bitrate_b": 7.4421,
+          "delta": 0.7887,
+          "s_local": 0.2461,
+          "raw_overlap": 0.2475,
+          "tau": 0.836,
+          "perf_linear": 0.2684,
+          "perf_best": 0.3211,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 6.5299,
+          "bitrate_b": 7.4421,
+          "delta": 0.9122,
+          "s_local": 0.2456,
+          "raw_overlap": 0.2471,
+          "tau": 0.8405,
+          "perf_linear": 0.2778,
+          "perf_best": 0.3306,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 6.3554,
+          "bitrate_b": 7.4421,
+          "delta": 1.0866,
+          "s_local": 0.2448,
+          "raw_overlap": 0.2463,
+          "tau": 0.8425,
+          "perf_linear": 0.2881,
+          "perf_best": 0.342,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 6.1103,
+          "bitrate_b": 7.4421,
+          "delta": 1.3318,
+          "s_local": 0.2429,
+          "raw_overlap": 0.2444,
+          "tau": 0.8395,
+          "perf_linear": 0.2968,
+          "perf_best": 0.3535,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 5.9472,
+          "bitrate_b": 7.4421,
+          "delta": 1.4949,
+          "s_local": 0.2396,
+          "raw_overlap": 0.2411,
+          "tau": 0.8349,
+          "perf_linear": 0.2989,
+          "perf_best": 0.3579,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 5.7291,
+          "bitrate_b": 7.4421,
+          "delta": 1.7129,
+          "s_local": 0.234,
+          "raw_overlap": 0.2355,
+          "tau": 0.8219,
+          "perf_linear": 0.298,
+          "perf_best": 0.3626,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 5.431,
+          "bitrate_b": 7.4421,
+          "delta": 2.011,
+          "s_local": 0.2268,
+          "raw_overlap": 0.2283,
+          "tau": 0.7866,
+          "perf_linear": 0.2894,
+          "perf_best": 0.3679,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 5.0012,
+          "bitrate_b": 7.4421,
+          "delta": 2.4409,
+          "s_local": 0.2092,
+          "raw_overlap": 0.2108,
+          "tau": 0.7315,
+          "perf_linear": 0.2661,
+          "perf_best": 0.3638,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 4.6722,
+          "bitrate_b": 7.4421,
+          "delta": 2.7699,
+          "s_local": 0.1934,
+          "raw_overlap": 0.195,
+          "tau": 0.6913,
+          "perf_linear": 0.2476,
+          "perf_best": 0.3582,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 4.1875,
+          "bitrate_b": 7.4421,
+          "delta": 3.2546,
+          "s_local": 0.1667,
+          "raw_overlap": 0.1684,
+          "tau": 0.6341,
+          "perf_linear": 0.215,
+          "perf_best": 0.339,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 3.313,
+          "bitrate_b": 7.4421,
+          "delta": 4.1291,
+          "s_local": 0.1147,
+          "raw_overlap": 0.1164,
+          "tau": 0.5545,
+          "perf_linear": 0.1628,
+          "perf_best": 0.2936,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.2557,
+        "kappa": 1.0494,
+        "r0": 3.5441,
+        "r2_fit": 0.9967,
+        "r_crit": 3.5441,
+        "r_sat": 5.6378
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.9006,
+        "kappa": 0.6861,
+        "r0": 2.7424,
+        "r2_fit": 0.9666,
+        "r_crit": 2.7424,
+        "r_sat": 5.9447
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.8975,
+          "bic": -127.8,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.9503,
+          "bic": -138.67,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9967,
+          "bic": -176.5,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9503,
+          "bic": -135.96,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9967,
+        "null_mean": 0.0607,
+        "null_std": 0.1566,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    },
+    {
+      "pair": "convnext_base <-> swin_base_patch4_window7_224",
+      "points": [
+        {
+          "level": 1.0,
+          "bitrate_a": 8.2416,
+          "bitrate_b": 8.3984,
+          "delta": 0.1568,
+          "s_local": 0.4833,
+          "raw_overlap": 0.4843,
+          "tau": 0.771,
+          "perf_linear": 0.2806,
+          "perf_best": 0.3639,
+          "converged": true
+        },
+        {
+          "level": 0.9,
+          "bitrate_a": 8.199,
+          "bitrate_b": 8.3984,
+          "delta": 0.1994,
+          "s_local": 0.4831,
+          "raw_overlap": 0.4842,
+          "tau": 0.7867,
+          "perf_linear": 0.2878,
+          "perf_best": 0.3659,
+          "converged": true
+        },
+        {
+          "level": 0.8,
+          "bitrate_a": 8.1339,
+          "bitrate_b": 8.3984,
+          "delta": 0.2645,
+          "s_local": 0.4828,
+          "raw_overlap": 0.4838,
+          "tau": 0.8135,
+          "perf_linear": 0.2983,
+          "perf_best": 0.3667,
+          "converged": true
+        },
+        {
+          "level": 0.7,
+          "bitrate_a": 8.0463,
+          "bitrate_b": 8.3984,
+          "delta": 0.3521,
+          "s_local": 0.4819,
+          "raw_overlap": 0.4829,
+          "tau": 0.8292,
+          "perf_linear": 0.3107,
+          "perf_best": 0.3748,
+          "converged": true
+        },
+        {
+          "level": 0.6,
+          "bitrate_a": 7.9328,
+          "bitrate_b": 8.3984,
+          "delta": 0.4656,
+          "s_local": 0.4814,
+          "raw_overlap": 0.4824,
+          "tau": 0.8495,
+          "perf_linear": 0.3243,
+          "perf_best": 0.3818,
+          "converged": true
+        },
+        {
+          "level": 0.5,
+          "bitrate_a": 7.7847,
+          "bitrate_b": 8.3984,
+          "delta": 0.6138,
+          "s_local": 0.4801,
+          "raw_overlap": 0.4811,
+          "tau": 0.8629,
+          "perf_linear": 0.339,
+          "perf_best": 0.3929,
+          "converged": true
+        },
+        {
+          "level": 0.4,
+          "bitrate_a": 7.5851,
+          "bitrate_b": 8.3984,
+          "delta": 0.8133,
+          "s_local": 0.4767,
+          "raw_overlap": 0.4777,
+          "tau": 0.87,
+          "perf_linear": 0.3534,
+          "perf_best": 0.4063,
+          "converged": true
+        },
+        {
+          "level": 0.3,
+          "bitrate_a": 7.3114,
+          "bitrate_b": 8.3984,
+          "delta": 1.087,
+          "s_local": 0.4716,
+          "raw_overlap": 0.4726,
+          "tau": 0.8812,
+          "perf_linear": 0.3658,
+          "perf_best": 0.4152,
+          "converged": true
+        },
+        {
+          "level": 0.25,
+          "bitrate_a": 7.1297,
+          "bitrate_b": 8.3984,
+          "delta": 1.2687,
+          "s_local": 0.4673,
+          "raw_overlap": 0.4684,
+          "tau": 0.8727,
+          "perf_linear": 0.3689,
+          "perf_best": 0.4227,
+          "converged": true
+        },
+        {
+          "level": 0.2,
+          "bitrate_a": 6.8957,
+          "bitrate_b": 8.3984,
+          "delta": 1.5027,
+          "s_local": 0.459,
+          "raw_overlap": 0.46,
+          "tau": 0.865,
+          "perf_linear": 0.3692,
+          "perf_best": 0.4268,
+          "converged": true
+        },
+        {
+          "level": 0.15,
+          "bitrate_a": 6.5888,
+          "bitrate_b": 8.3984,
+          "delta": 1.8096,
+          "s_local": 0.4452,
+          "raw_overlap": 0.4463,
+          "tau": 0.8496,
+          "perf_linear": 0.3645,
+          "perf_best": 0.429,
+          "converged": true
+        },
+        {
+          "level": 0.1,
+          "bitrate_a": 6.1366,
+          "bitrate_b": 8.3984,
+          "delta": 2.2618,
+          "s_local": 0.4237,
+          "raw_overlap": 0.4249,
+          "tau": 0.8126,
+          "perf_linear": 0.3473,
+          "perf_best": 0.4274,
+          "converged": true
+        },
+        {
+          "level": 0.075,
+          "bitrate_a": 5.7909,
+          "bitrate_b": 8.3984,
+          "delta": 2.6075,
+          "s_local": 0.4027,
+          "raw_overlap": 0.4039,
+          "tau": 0.7659,
+          "perf_linear": 0.3245,
+          "perf_best": 0.4236,
+          "converged": true
+        },
+        {
+          "level": 0.05,
+          "bitrate_a": 5.298,
+          "bitrate_b": 8.3984,
+          "delta": 3.1004,
+          "s_local": 0.3729,
+          "raw_overlap": 0.3741,
+          "tau": 0.7,
+          "perf_linear": 0.2894,
+          "perf_best": 0.4135,
+          "converged": true
+        },
+        {
+          "level": 0.025,
+          "bitrate_a": 4.3728,
+          "bitrate_b": 8.3984,
+          "delta": 4.0256,
+          "s_local": 0.3027,
+          "raw_overlap": 0.3041,
+          "tau": 0.5907,
+          "perf_linear": 0.2235,
+          "perf_best": 0.3783,
+          "converged": true
+        }
+      ],
+      "sigmoid_fit_alignment": {
+        "s_max": 0.5066,
+        "kappa": 0.7229,
+        "r0": 3.8503,
+        "r2_fit": 0.9977,
+        "r_crit": 3.8503,
+        "r_sat": 6.8898
+      },
+      "sigmoid_fit_transport": {
+        "s_max": 0.8458,
+        "kappa": 1.2646,
+        "r0": 3.7699,
+        "r2_fit": 0.786,
+        "r_crit": 3.7699,
+        "r_sat": 5.5074
+      },
+      "model_comparison": {
+        "linear": {
+          "r2": 0.9231,
+          "bic": -122.63,
+          "n_params": 2
+        },
+        "log": {
+          "r2": 0.964,
+          "bic": -134.0,
+          "n_params": 2
+        },
+        "sigmoid": {
+          "r2": 0.9977,
+          "bic": -172.52,
+          "n_params": 3
+        },
+        "power": {
+          "r2": 0.9639,
+          "bic": -131.29,
+          "n_params": 3
+        }
+      },
+      "permutation_null": {
+        "obs_r2": 0.9977,
+        "null_mean": 0.0546,
+        "null_std": 0.1414,
+        "p_value": 0.0,
+        "n_perms": 1000
+      }
+    }
+  ],
+  "summary": {
+    "n_pairs": 10,
+    "n_successful_fits": 10,
+    "n_good_fits_r2_gt_0.5": 10,
+    "mean_r2_alignment": 0.9727,
+    "mean_r_crit": 2.9565,
+    "mean_r_sat": 7.6804
+  }
+}

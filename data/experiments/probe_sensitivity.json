@@ -1,0 +1,286 @@
+{
+  "description": "tau sensitivity to MLP probe (steps x capacity) and Procrustes vs ridge baseline. Regenerated from data/features/*.pt by scripts/followup/probe_sensitivity.py (see module docstring for exact definitions, including the tau/tau_baseline/tau_ridge_best formulas and the hidden-width convention).",
+  "pairs": 9,
+  "mlp_grid": {
+    "steps": [
+      1000,
+      3000,
+      10000
+    ],
+    "hidden_multiplier": [
+      1,
+      2,
+      4
+    ]
+  },
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "per_pair": {
+    "clip_vitb16 <-> clip_vitl14": {
+      "procrustes_r2": 0.32514503598213196,
+      "ridge": {
+        "ridge_alpha=0.1": 0.46600648760795593,
+        "ridge_alpha=1.0": 0.45620331168174744,
+        "ridge_alpha=10.0": 0.3255006670951843
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.4328693747520447,
+        "steps=1000,h_mult=2": 0.42929160594940186,
+        "steps=1000,h_mult=4": 0.43295273184776306,
+        "steps=3000,h_mult=1": 0.3641313910484314,
+        "steps=3000,h_mult=2": 0.3485555052757263,
+        "steps=3000,h_mult=4": 0.3652838170528412,
+        "steps=10000,h_mult=1": 0.2383580207824707,
+        "steps=10000,h_mult=2": 0.18762215971946716,
+        "steps=10000,h_mult=4": 0.2132609337568283
+      }
+    },
+    "clip_vitb32 <-> clip_vitb16": {
+      "procrustes_r2": 0.327512264251709,
+      "ridge": {
+        "ridge_alpha=0.1": 0.5362927913665771,
+        "ridge_alpha=1.0": 0.5195095539093018,
+        "ridge_alpha=10.0": 0.36270803213119507
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.49033886194229126,
+        "steps=1000,h_mult=2": 0.4963577389717102,
+        "steps=1000,h_mult=4": 0.4976921081542969,
+        "steps=3000,h_mult=1": 0.4408680200576782,
+        "steps=3000,h_mult=2": 0.43386662006378174,
+        "steps=3000,h_mult=4": 0.4357679486274719,
+        "steps=10000,h_mult=1": 0.36099088191986084,
+        "steps=10000,h_mult=2": 0.32177498936653137,
+        "steps=10000,h_mult=4": 0.32043325901031494
+      }
+    },
+    "dinov2_vitb14 <-> dinov2_vitl14": {
+      "procrustes_r2": 0.06360284984111786,
+      "ridge": {
+        "ridge_alpha=0.1": 0.3008880019187927,
+        "ridge_alpha=1.0": 0.35099056363105774,
+        "ridge_alpha=10.0": 0.30635395646095276
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.3089398443698883,
+        "steps=1000,h_mult=2": 0.2983337938785553,
+        "steps=1000,h_mult=4": 0.31656619906425476,
+        "steps=3000,h_mult=1": 0.18446427583694458,
+        "steps=3000,h_mult=2": 0.15894055366516113,
+        "steps=3000,h_mult=4": 0.22256019711494446,
+        "steps=10000,h_mult=1": 0.017045624554157257,
+        "steps=10000,h_mult=2": 0.013009957037866116,
+        "steps=10000,h_mult=4": 0.0336449034512043
+      }
+    },
+    "dinov2_vits14 <-> dinov2_vitg14": {
+      "procrustes_r2": 0.019611908122897148,
+      "ridge": {
+        "ridge_alpha=0.1": 0.23591779172420502,
+        "ridge_alpha=1.0": 0.2545367181301117,
+        "ridge_alpha=10.0": 0.2354392260313034
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.28554803133010864,
+        "steps=1000,h_mult=2": 0.2875772714614868,
+        "steps=1000,h_mult=4": 0.30229759216308594,
+        "steps=3000,h_mult=1": 0.19620226323604584,
+        "steps=3000,h_mult=2": 0.20377933979034424,
+        "steps=3000,h_mult=4": 0.25142771005630493,
+        "steps=10000,h_mult=1": 0.023219149559736252,
+        "steps=10000,h_mult=2": 0.023802300915122032,
+        "steps=10000,h_mult=4": 0.09757819026708603
+      }
+    },
+    "resnet50 <-> resnet101": {
+      "procrustes_r2": 0.09540893882513046,
+      "ridge": {
+        "ridge_alpha=0.1": 0.249698206782341,
+        "ridge_alpha=1.0": 0.32989370822906494,
+        "ridge_alpha=10.0": 0.25473812222480774
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.1425357311964035,
+        "steps=1000,h_mult=2": 0.13900786638259888,
+        "steps=1000,h_mult=4": 0.15700861811637878,
+        "steps=3000,h_mult=1": 0.08319386094808578,
+        "steps=3000,h_mult=2": 0.08499755710363388,
+        "steps=3000,h_mult=4": 0.0995098128914833,
+        "steps=10000,h_mult=1": 0.07063455134630203,
+        "steps=10000,h_mult=2": 0.07554127275943756,
+        "steps=10000,h_mult=4": 0.09033729135990143
+      }
+    },
+    "vit_base_patch16_224 <-> resnet50": {
+      "procrustes_r2": 0.022613704204559326,
+      "ridge": {
+        "ridge_alpha=0.1": 0.18894463777542114,
+        "ridge_alpha=1.0": 0.2366967797279358,
+        "ridge_alpha=10.0": 0.21262899041175842
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.15530462563037872,
+        "steps=1000,h_mult=2": 0.158316969871521,
+        "steps=1000,h_mult=4": 0.17641419172286987,
+        "steps=3000,h_mult=1": 0.07440845668315887,
+        "steps=3000,h_mult=2": 0.08865945041179657,
+        "steps=3000,h_mult=4": 0.1291508972644806,
+        "steps=10000,h_mult=1": 0.010509859770536423,
+        "steps=10000,h_mult=2": 0.020200330764055252,
+        "steps=10000,h_mult=4": 0.05647232383489609
+      }
+    },
+    "beit_base_patch16_224 <-> beit_large_patch16_224": {
+      "procrustes_r2": 0.20301111042499542,
+      "ridge": {
+        "ridge_alpha=0.1": 0.4650987684726715,
+        "ridge_alpha=1.0": 0.4947609305381775,
+        "ridge_alpha=10.0": 0.42470401525497437
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.4807540774345398,
+        "steps=1000,h_mult=2": 0.47775495052337646,
+        "steps=1000,h_mult=4": 0.4851643443107605,
+        "steps=3000,h_mult=1": 0.3812813460826874,
+        "steps=3000,h_mult=2": 0.38108670711517334,
+        "steps=3000,h_mult=4": 0.41265350580215454,
+        "steps=10000,h_mult=1": 0.16354581713676453,
+        "steps=10000,h_mult=2": 0.1575043946504593,
+        "steps=10000,h_mult=4": 0.21713966131210327
+      }
+    },
+    "dinov2_vitl14 <-> beit_large_patch16_224": {
+      "procrustes_r2": 0.0017975268419831991,
+      "ridge": {
+        "ridge_alpha=0.1": 0.1189836636185646,
+        "ridge_alpha=1.0": 0.21927285194396973,
+        "ridge_alpha=10.0": 0.21665295958518982
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.08006347715854645,
+        "steps=1000,h_mult=2": 0.07843725383281708,
+        "steps=1000,h_mult=4": 0.0939050018787384,
+        "steps=3000,h_mult=1": 0.009376397356390953,
+        "steps=3000,h_mult=2": 0.016067154705524445,
+        "steps=3000,h_mult=4": 0.03668869659304619,
+        "steps=10000,h_mult=1": 0.00039145682239905,
+        "steps=10000,h_mult=2": 0.0013727839104831219,
+        "steps=10000,h_mult=4": 0.005902230739593506
+      }
+    },
+    "clip_vitb16 <-> dinov2_vitb14": {
+      "procrustes_r2": 0.18579430878162384,
+      "ridge": {
+        "ridge_alpha=0.1": 0.25169023871421814,
+        "ridge_alpha=1.0": 0.25545284152030945,
+        "ridge_alpha=10.0": 0.16909432411193848
+      },
+      "mlp": {
+        "steps=1000,h_mult=1": 0.25378191471099854,
+        "steps=1000,h_mult=2": 0.23206846415996552,
+        "steps=1000,h_mult=4": 0.23134540021419525,
+        "steps=3000,h_mult=1": 0.15578299760818481,
+        "steps=3000,h_mult=2": 0.10884380340576172,
+        "steps=3000,h_mult=4": 0.12096273899078369,
+        "steps=10000,h_mult=1": 0.01690283603966236,
+        "steps=10000,h_mult=2": 0.008670534007251263,
+        "steps=10000,h_mult=4": 0.0093322042375803
+      }
+    }
+  },
+  "summary": [
+    {
+      "pair": "clip_vitb16 <-> clip_vitl14",
+      "procrustes_r2": 0.32514503598213196,
+      "tau_baseline": 0.9328357494308535,
+      "tau_min": 0.7509943050699147,
+      "tau_max": 1.0,
+      "tau_std": 0.10230599017305382,
+      "ridge_best_r2": 0.46600648760795593,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "clip_vitb32 <-> clip_vitb16",
+      "procrustes_r2": 0.327512264251709,
+      "tau_baseline": 0.7548685450924115,
+      "tau_min": 0.6580620003525796,
+      "tau_max": 1.0,
+      "tau_std": 0.1316630862420148,
+      "ridge_best_r2": 0.5362927913665771,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+      "procrustes_r2": 0.06360284984111786,
+      "tau_baseline": 0.4001675366949426,
+      "tau_min": 0.20091484823434394,
+      "tau_max": 1.0,
+      "tau_std": 0.3473136008729314,
+      "ridge_best_r2": 0.35099056363105774,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "dinov2_vits14 <-> dinov2_vitg14",
+      "procrustes_r2": 0.019611908122897148,
+      "tau_baseline": 0.09624090520204162,
+      "tau_min": 0.06487616385749033,
+      "tau_max": 0.8446436882815755,
+      "tau_std": 0.30918267928995335,
+      "ridge_best_r2": 0.2545367181301117,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "resnet50 <-> resnet101",
+      "procrustes_r2": 0.09540893882513046,
+      "tau_baseline": 1.0,
+      "tau_min": 0.6076668909627045,
+      "tau_max": 1.0,
+      "tau_std": 0.16132643981930045,
+      "ridge_best_r2": 0.32989370822906494,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "vit_base_patch16_224 <-> resnet50",
+      "procrustes_r2": 0.022613704204559326,
+      "tau_baseline": 0.25506253534761886,
+      "tau_min": 0.12818528931098316,
+      "tau_max": 1.0,
+      "tau_std": 0.33421334921032436,
+      "ridge_best_r2": 0.2366967797279358,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "beit_base_patch16_224 <-> beit_large_patch16_224",
+      "procrustes_r2": 0.20301111042499542,
+      "tau_baseline": 0.5327163257983719,
+      "tau_min": 0.4184378196905613,
+      "tau_max": 1.0,
+      "tau_std": 0.24356770994846522,
+      "ridge_best_r2": 0.4947609305381775,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "dinov2_vitl14 <-> beit_large_patch16_224",
+      "procrustes_r2": 0.0017975268419831991,
+      "tau_baseline": 0.11187586569793512,
+      "tau_min": 0.01914197120515886,
+      "tau_max": 1.0,
+      "tau_std": 0.38337395015688625,
+      "ridge_best_r2": 0.21927285194396973,
+      "tau_ridge_best": 1.0
+    },
+    {
+      "pair": "clip_vitb16 <-> dinov2_vitb14",
+      "procrustes_r2": 0.18579430878162384,
+      "tau_baseline": 1.0,
+      "tau_min": 0.7321022421680539,
+      "tau_max": 1.0,
+      "tau_std": 0.10608191719987337,
+      "ridge_best_r2": 0.25545284152030945,
+      "tau_ridge_best": 1.0
+    }
+  ]
+}

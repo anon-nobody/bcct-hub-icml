@@ -1,0 +1,13 @@
+{
+  "comparison": "pipeline_matched_clip",
+  "model_a": "clip_vitb16 (atlas extraction pipeline)",
+  "model_b": "clip_vitl14 (atlas extraction pipeline)",
+  "n_samples": 5000,
+  "bitrate": 6.841,
+  "delta": 0.601,
+  "s_local": 0.29,
+  "s_global": 0.7183,
+  "tau": 0.3487,
+  "regime": "Local-Only",
+  "note": "Same family (CLIP), same atlas extraction pipeline; serves as positive control for the 15/15 Divergent outcome in external_scorecard_study.json which used external/HF extraction pipelines for the model side and atlas pipeline for the anchor side."
+}

@@ -1,0 +1,571 @@
+{
+  "description": "tau vs CKA (s_global) divergence cases -- where they disagree. Regenerated from data/atlas.json by scripts/followup/cka_tau_divergence.py (see module docstring for the thresholds and type-C matching rule).",
+  "n_total_pairs": 190,
+  "type_a_high_cka_low_tau_35": [
+    {
+      "pair": "convnext_base <-> vit_large_patch16_224",
+      "model_a": "convnext_base",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.6934,
+      "tau": 0.1548,
+      "s_local": 0.396,
+      "delta": 0.58,
+      "regime": "Local-Only",
+      "same_family": true,
+      "same_objective": true
+    },
+    {
+      "pair": "swin_base_patch4_window7_224 <-> vit_large_patch16_224",
+      "model_a": "swin_base_patch4_window7_224",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.6726,
+      "tau": 0.187,
+      "s_local": 0.385,
+      "delta": 0.737,
+      "regime": "Local-Only",
+      "same_family": true,
+      "same_objective": true
+    },
+    {
+      "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+      "model_a": "mixer_b16_224",
+      "model_b": "vit_base_patch16_224",
+      "s_global": 0.6675,
+      "tau": 0.179,
+      "s_local": 0.225,
+      "delta": 0.268,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "convnext_large <-> dinov2_vitb14",
+      "model_a": "convnext_large",
+      "model_b": "dinov2_vitb14",
+      "s_global": 0.6637,
+      "tau": 0.1975,
+      "s_local": 0.416,
+      "delta": 0.116,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+      "model_a": "beit_large_patch16_224",
+      "model_b": "vit_large_patch16_224.mae",
+      "s_global": 0.6539,
+      "tau": 0.0,
+      "s_local": 0.123,
+      "delta": 1.656,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "dinov2_vits14 <-> swin_base_patch4_window7_224",
+      "model_a": "dinov2_vits14",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.6482,
+      "tau": 0.1523,
+      "s_local": 0.375,
+      "delta": 0.647,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vitb14 <-> swin_base_patch4_window7_224",
+      "model_a": "dinov2_vitb14",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.6451,
+      "tau": 0.0816,
+      "s_local": 0.392,
+      "delta": 0.202,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+      "model_a": "beit_base_patch16_224",
+      "model_b": "vit_large_patch16_224.mae",
+      "s_global": 0.6358,
+      "tau": 0.0,
+      "s_local": 0.109,
+      "delta": 0.967,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "dinov2_vits14 <-> resnet101",
+      "model_a": "dinov2_vits14",
+      "model_b": "resnet101",
+      "s_global": 0.6153,
+      "tau": 0.1095,
+      "s_local": 0.272,
+      "delta": 0.842,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> swin_base_patch4_window7_224",
+      "model_a": "clip_vitl14",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.6086,
+      "tau": 0.0204,
+      "s_local": 0.278,
+      "delta": 0.956,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> convnext_base",
+      "model_a": "clip_vitl14",
+      "model_b": "convnext_base",
+      "s_global": 0.5991,
+      "tau": 0.0091,
+      "s_local": 0.276,
+      "delta": 0.799,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "convnext_large <-> dinov2_vitg14",
+      "model_a": "convnext_large",
+      "model_b": "dinov2_vitg14",
+      "s_global": 0.5954,
+      "tau": 0.1723,
+      "s_local": 0.377,
+      "delta": 0.57,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "convnext_large <-> dinov2_vitl14",
+      "model_a": "convnext_large",
+      "model_b": "dinov2_vitl14",
+      "s_global": 0.5904,
+      "tau": 0.1338,
+      "s_local": 0.386,
+      "delta": 0.479,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> convnext_large",
+      "model_a": "clip_vitl14",
+      "model_b": "convnext_large",
+      "s_global": 0.5902,
+      "tau": 0.009,
+      "s_local": 0.286,
+      "delta": 1.042,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "convnext_base <-> mixer_b16_224",
+      "model_a": "convnext_base",
+      "model_b": "mixer_b16_224",
+      "s_global": 0.5899,
+      "tau": 0.1651,
+      "s_local": 0.212,
+      "delta": 0.204,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "convnext_base <-> dinov2_vitl14",
+      "model_a": "convnext_base",
+      "model_b": "dinov2_vitl14",
+      "s_global": 0.5893,
+      "tau": 0.1342,
+      "s_local": 0.373,
+      "delta": 0.722,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vits14 <-> vit_base_patch16_224",
+      "model_a": "dinov2_vits14",
+      "model_b": "vit_base_patch16_224",
+      "s_global": 0.5833,
+      "tau": 0.0685,
+      "s_local": 0.29,
+      "delta": 0.018,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vits14 <-> efficientnet_b0",
+      "model_a": "dinov2_vits14",
+      "model_b": "efficientnet_b0",
+      "s_global": 0.5826,
+      "tau": 0.0869,
+      "s_local": 0.257,
+      "delta": 0.477,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> resnet101",
+      "model_a": "clip_vitl14",
+      "model_b": "resnet101",
+      "s_global": 0.5821,
+      "tau": 0.0539,
+      "s_local": 0.196,
+      "delta": 1.152,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> vit_large_patch16_224",
+      "model_a": "clip_vitl14",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.5817,
+      "tau": 0.0046,
+      "s_local": 0.256,
+      "delta": 0.219,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "convnext_large <-> mixer_b16_224",
+      "model_a": "convnext_large",
+      "model_b": "mixer_b16_224",
+      "s_global": 0.5802,
+      "tau": 0.1455,
+      "s_local": 0.207,
+      "delta": 0.447,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "dinov2_vitb14 <-> vit_large_patch16_224",
+      "model_a": "dinov2_vitb14",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.5783,
+      "tau": 0.1323,
+      "s_local": 0.374,
+      "delta": 0.939,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "mixer_b16_224 <-> vit_large_patch16_224",
+      "model_a": "mixer_b16_224",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.5775,
+      "tau": 0.1801,
+      "s_local": 0.184,
+      "delta": 0.376,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": true
+    },
+    {
+      "pair": "dinov2_vitg14 <-> swin_base_patch4_window7_224",
+      "model_a": "dinov2_vitg14",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.5751,
+      "tau": 0.1948,
+      "s_local": 0.349,
+      "delta": 0.656,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vitl14 <-> swin_base_patch4_window7_224",
+      "model_a": "dinov2_vitl14",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.569,
+      "tau": 0.0246,
+      "s_local": 0.357,
+      "delta": 0.565,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitb16 <-> swin_base_patch4_window7_224",
+      "model_a": "clip_vitb16",
+      "model_b": "swin_base_patch4_window7_224",
+      "s_global": 0.5673,
+      "tau": 0.0404,
+      "s_local": 0.231,
+      "delta": 1.558,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vits14 <-> vit_large_patch16_224",
+      "model_a": "dinov2_vits14",
+      "model_b": "vit_large_patch16_224",
+      "s_global": 0.5669,
+      "tau": 0.0768,
+      "s_local": 0.323,
+      "delta": 0.091,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vitl14 <-> dinov2_vits14",
+      "model_a": "dinov2_vitl14",
+      "model_b": "dinov2_vits14",
+      "s_global": 0.5665,
+      "tau": 0.1403,
+      "s_local": 0.364,
+      "delta": 1.211,
+      "regime": "Local-Only",
+      "same_family": true,
+      "same_objective": true
+    },
+    {
+      "pair": "dinov2_vits14 <-> resnet50",
+      "model_a": "dinov2_vits14",
+      "model_b": "resnet50",
+      "s_global": 0.5644,
+      "tau": 0.0886,
+      "s_local": 0.225,
+      "delta": 0.353,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> dinov2_vits14",
+      "model_a": "clip_vitl14",
+      "model_b": "dinov2_vits14",
+      "s_global": 0.5637,
+      "tau": 0.0057,
+      "s_local": 0.27,
+      "delta": 0.31,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitb16 <-> resnet101",
+      "model_a": "clip_vitb16",
+      "model_b": "resnet101",
+      "s_global": 0.5628,
+      "tau": 0.0775,
+      "s_local": 0.183,
+      "delta": 1.753,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vitb14 <-> vit_base_patch16_224",
+      "model_a": "dinov2_vitb14",
+      "model_b": "vit_base_patch16_224",
+      "s_global": 0.558,
+      "tau": 0.1219,
+      "s_local": 0.287,
+      "delta": 0.831,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "clip_vitl14 <-> vit_base_patch16_224",
+      "model_a": "clip_vitl14",
+      "model_b": "vit_base_patch16_224",
+      "s_global": 0.5553,
+      "tau": 0.0051,
+      "s_local": 0.217,
+      "delta": 0.327,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    },
+    {
+      "pair": "dinov2_vitg14 <-> dinov2_vits14",
+      "model_a": "dinov2_vitg14",
+      "model_b": "dinov2_vits14",
+      "s_global": 0.5505,
+      "tau": 0.0995,
+      "s_local": 0.344,
+      "delta": 1.303,
+      "regime": "Local-Only",
+      "same_family": true,
+      "same_objective": true
+    },
+    {
+      "pair": "clip_vitl14 <-> dinov2_vitb14",
+      "model_a": "clip_vitl14",
+      "model_b": "dinov2_vitb14",
+      "s_global": 0.5503,
+      "tau": 0.0121,
+      "s_local": 0.287,
+      "delta": 1.158,
+      "regime": "Local-Only",
+      "same_family": false,
+      "same_objective": false
+    }
+  ],
+  "type_a_aggregate": {
+    "n": 35,
+    "s_global_mean": 0.5963971428571428,
+    "s_global_range": [
+      0.5503,
+      0.6934
+    ],
+    "tau_mean": 0.09327714285714284,
+    "tau_range": [
+      0.0,
+      0.1975
+    ],
+    "s_local_mean": 0.2880571428571429,
+    "s_local_range": [
+      0.109,
+      0.416
+    ],
+    "definition": "s_global > 0.55 AND tau < 0.2 (using bidirectional conservative tau = min(tau_AB, tau_BA))"
+  },
+  "type_a_cross_family": 31,
+  "type_a_cross_objective": 25,
+  "type_b_low_cka_high_tau": [
+    {
+      "pair": "beit_large_patch16_224 <-> resnet50",
+      "cka": 0.302,
+      "tau": 0.3556,
+      "regime": "Local-Only"
+    },
+    {
+      "pair": "dinov2_vitg14 <-> mixer_b16_224",
+      "cka": 0.3699,
+      "tau": 0.326,
+      "regime": "Local-Only"
+    },
+    {
+      "pair": "dinov2_vitg14 <-> resnet50",
+      "cka": 0.3953,
+      "tau": 0.3541,
+      "regime": "Local-Only"
+    },
+    {
+      "pair": "dinov2_vitl14 <-> mixer_b16_224",
+      "cka": 0.3744,
+      "tau": 0.3167,
+      "regime": "Local-Only"
+    }
+  ],
+  "type_b_definition": "s_global < 0.4 AND tau > 0.3",
+  "type_c_similar_cka_different_tau": [
+    {
+      "pair1": {
+        "name": "clip_vitl14 <-> vit_large_patch16_224",
+        "cka": 0.5817,
+        "tau": 0.0046
+      },
+      "pair2": {
+        "name": "efficientnet_b0 <-> mixer_b16_224",
+        "cka": 0.6006,
+        "tau": 0.6188
+      },
+      "tau_gap": 0.6142
+    },
+    {
+      "pair1": {
+        "name": "clip_vitl14 <-> convnext_large",
+        "cka": 0.5902,
+        "tau": 0.009
+      },
+      "pair2": {
+        "name": "efficientnet_b0 <-> mixer_b16_224",
+        "cka": 0.6006,
+        "tau": 0.6188
+      },
+      "tau_gap": 0.6098
+    },
+    {
+      "pair1": {
+        "name": "clip_vitl14 <-> convnext_base",
+        "cka": 0.5991,
+        "tau": 0.0091
+      },
+      "pair2": {
+        "name": "efficientnet_b0 <-> mixer_b16_224",
+        "cka": 0.6006,
+        "tau": 0.6188
+      },
+      "tau_gap": 0.6097
+    },
+    {
+      "pair1": {
+        "name": "clip_vitl14 <-> swin_base_patch4_window7_224",
+        "cka": 0.6086,
+        "tau": 0.0204
+      },
+      "pair2": {
+        "name": "efficientnet_b0 <-> mixer_b16_224",
+        "cka": 0.6006,
+        "tau": 0.6188
+      },
+      "tau_gap": 0.5984
+    },
+    {
+      "pair1": {
+        "name": "clip_vitb16 <-> clip_vitb32",
+        "cka": 0.7132,
+        "tau": 0.744
+      },
+      "pair2": {
+        "name": "convnext_base <-> vit_large_patch16_224",
+        "cka": 0.6934,
+        "tau": 0.1548
+      },
+      "tau_gap": 0.5892
+    }
+  ],
+  "type_c_definition": "top-5 pairs-of-pairs (over all 190 choose 2 combinations) with |s_global_i - s_global_j| <= 0.02, ranked by |tau_i - tau_j| descending",
+  "spearman_tau_cka": 0.7211668592603303,
+  "spearman_tau_cka_pvalue": 8.588072904309128e-32,
+  "variance_tau_unexplained_by_cka": 0.47991836110459096,
+  "representative_type_a_high_cka_low_tau_8": null,
+  "representative_type_a_partial_explanation": {
+    "rule": "top-3 type-A pairs by s_global among the 19 with tau<0.1, UNION the pair1 (low-tau anchor) of the first 4 type_c_similar_cka_different_tau entries",
+    "composite_pairs": [
+      "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+      "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+      "clip_vitl14 <-> convnext_base",
+      "clip_vitl14 <-> convnext_large",
+      "clip_vitl14 <-> swin_base_patch4_window7_224",
+      "clip_vitl14 <-> vit_large_patch16_224",
+      "dinov2_vitb14 <-> swin_base_patch4_window7_224"
+    ],
+    "matches_original_8_list": [
+      "beit_base_patch16_224 <-> vit_large_patch16_224.mae",
+      "beit_large_patch16_224 <-> vit_large_patch16_224.mae",
+      "clip_vitl14 <-> convnext_base",
+      "clip_vitl14 <-> convnext_large",
+      "clip_vitl14 <-> swin_base_patch4_window7_224",
+      "clip_vitl14 <-> vit_large_patch16_224",
+      "dinov2_vitb14 <-> swin_base_patch4_window7_224"
+    ],
+    "original_pairs_not_explained": [
+      "clip_vitl14 <-> dinov2_vits14"
+    ],
+    "composite_pairs_not_in_original": []
+  }
+}

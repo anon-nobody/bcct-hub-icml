@@ -1,0 +1,40 @@
+{
+  "pairs": [
+    {
+      "pair": "clip_vitb16 <-> clip_vitb16_text",
+      "s_local": 0.0,
+      "s_global": 0.0077,
+      "tau": 0.0,
+      "delta": 1.013,
+      "regime": "Divergent",
+      "cross_modal": true
+    },
+    {
+      "pair": "clip_vitl14 <-> clip_vitl14_text",
+      "s_local": 0.0,
+      "s_global": 0.01,
+      "tau": 0.0,
+      "delta": 1.505,
+      "regime": "Divergent",
+      "cross_modal": true
+    },
+    {
+      "pair": "dinov2_vitb14 <-> clip_vitb16_text",
+      "s_local": 0.0,
+      "s_global": 0.017,
+      "tau": 0.0,
+      "delta": 2.772,
+      "regime": "Divergent",
+      "cross_modal": true
+    },
+    {
+      "pair": "resnet50 <-> clip_vitb16_text",
+      "s_local": 0.0,
+      "s_global": 0.0099,
+      "tau": 0.0,
+      "delta": 2.277,
+      "regime": "Divergent",
+      "cross_modal": true
+    }
+  ]
+}

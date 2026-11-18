@@ -1,0 +1,385 @@
+{
+  "n_pairs": 190,
+  "models": [
+    {
+      "name": "m1_tau_bitrate_avg",
+      "n": 190,
+      "dof": 188,
+      "r2": 0.027943432800289547,
+      "adj_r2": 0.022772919144971926,
+      "sse": 13.449313234353461,
+      "features": [
+        "bitrate_avg"
+      ],
+      "coefficients": [
+        {
+          "term": "intercept",
+          "coef": -0.19807282367650186,
+          "std_err": 0.12633499828045677,
+          "t": -1.56783810007098,
+          "p_value": 0.1186005248465205
+        },
+        {
+          "term": "bitrate_avg",
+          "coef": 0.03921891849015906,
+          "std_err": 0.016870291210759468,
+          "t": 2.3247327506205804,
+          "p_value": 0.021154218642136513
+        }
+      ]
+    },
+    {
+      "name": "m2_tau_bitrate_avg_mismatch",
+      "n": 190,
+      "dof": 187,
+      "r2": 0.05664580538904995,
+      "adj_r2": 0.046556455714066525,
+      "sse": 13.052189021070872,
+      "features": [
+        "bitrate_avg",
+        "bitrate_mismatch"
+      ],
+      "coefficients": [
+        {
+          "term": "intercept",
+          "coef": 0.2852607449986852,
+          "std_err": 0.2379730570614858,
+          "t": 1.198710259560945,
+          "p_value": 0.2321574876650041
+        },
+        {
+          "term": "bitrate_avg",
+          "coef": -0.01595200280489469,
+          "std_err": 0.028507156016102566,
+          "t": -0.5595788929588077,
+          "p_value": 0.5764363277819848
+        },
+        {
+          "term": "bitrate_mismatch",
+          "coef": -0.044711460586538306,
+          "std_err": 0.018744615978985375,
+          "t": -2.3852961637978827,
+          "p_value": 0.018064639825710493
+        }
+      ]
+    },
+    {
+      "name": "m3_tau_bitrate_avg_objective_same",
+      "n": 190,
+      "dof": 187,
+      "r2": 0.15940903951196161,
+      "adj_r2": 0.15041876185968317,
+      "sse": 11.6303634079013,
+      "features": [
+        "bitrate_avg",
+        "objective_same"
+      ],
+      "coefficients": [
+        {
+          "term": "intercept",
+          "coef": -0.23348967812473057,
+          "std_err": 0.11797732584533883,
+          "t": -1.9791063787190892,
+          "p_value": 0.049271701950803326
+        },
+        {
+          "term": "bitrate_avg",
+          "coef": 0.03422945871060115,
+          "std_err": 0.01575698191360241,
+          "t": 2.1723359776818776,
+          "p_value": 0.031088584201443226
+        },
+        {
+          "term": "objective_same",
+          "coef": 0.20513650441615477,
+          "std_err": 0.037932234799208396,
+          "t": 5.407973073614839,
+          "p_value": 1.9309065080186372e-07
+        }
+      ]
+    },
+    {
+      "name": "m4_tau_bitrate_and_compatibility",
+      "n": 190,
+      "dof": 185,
+      "r2": 0.32169906269321025,
+      "adj_r2": 0.3070330964811715,
+      "sse": 9.384928903134808,
+      "features": [
+        "bitrate_avg",
+        "bitrate_mismatch",
+        "objective_same",
+        "family_same"
+      ],
+      "coefficients": [
+        {
+          "term": "intercept",
+          "coef": 0.12072884742420427,
+          "std_err": 0.20418185133136502,
+          "t": 0.5912809911213629,
+          "p_value": 0.5550539285040732
+        },
+        {
+          "term": "bitrate_avg",
+          "coef": -0.01072776108311441,
+          "std_err": 0.024325172558271446,
+          "t": -0.44101479886384526,
+          "p_value": 0.6597172328929615
+        },
+        {
+          "term": "bitrate_mismatch",
+          "coef": -0.013127266140845356,
+          "std_err": 0.016462472253928693,
+          "t": -0.7974055134831036,
+          "p_value": 0.42623782527194365
+        },
+        {
+          "term": "objective_same",
+          "coef": -0.012178603160737725,
+          "std_err": 0.048049487824184,
+          "t": -0.2534595832800544,
+          "p_value": 0.8001945371494692
+        },
+        {
+          "term": "family_same",
+          "coef": 0.37576170711646906,
+          "std_err": 0.059994663305051744,
+          "t": 6.263252203047679,
+          "p_value": 2.573276924877632e-09
+        }
+      ]
+    },
+    {
+      "name": "m5_tau_compatibility_no_bitrate",
+      "n": 190,
+      "dof": 185,
+      "r2": 0.36418968854771905,
+      "adj_r2": 0.3504424385703725,
+      "sse": 8.797031289020342,
+      "features": [
+        "objective_same",
+        "family_same",
+        "dim_a",
+        "dim_b"
+      ],
+      "coefficients": [
+        {
+          "term": "intercept",
+          "coef": 0.2098890472262227,
+          "std_err": 0.056791736268190805,
+          "t": 3.6957673953663237,
+          "p_value": 0.0002886502570669247
+        },
+        {
+          "term": "objective_same",
+          "coef": -0.023871577049073504,
+          "std_err": 0.045944191179901776,
+          "t": -0.5195776971151925,
+          "p_value": 0.6039790389007285
+        },
+        {
+          "term": "family_same",
+          "coef": 0.4435592249897722,
+          "std_err": 0.05607921016576045,
+          "t": 7.909512699602719,
+          "p_value": 2.278177646530821e-13
+        },
+        {
+          "term": "dim_a",
+          "coef": -0.00011349016568245815,
+          "std_err": 4.045645324249954e-05,
+          "t": -2.8052425901546068,
+          "p_value": 0.005565432534009096
+        },
+        {
+          "term": "dim_b",
+          "coef": -8.302013146447088e-05,
+          "std_err": 3.441974509434337e-05,
+          "t": -2.411991467017419,
+          "p_value": 0.016842795389736986
+        }
+      ]
+    }
+  ],
+  "objective_only_reference": {
+    "n": 190,
+    "dof": 188,
+    "r2": 0.13819628340366774,
+    "adj_r2": 0.13361222108134674,
+    "sse": 11.923861760868832,
+    "features": [
+      "objective_same"
+    ],
+    "coefficients": [
+      {
+        "term": "intercept",
+        "coef": 0.018098373983739827,
+        "std_err": 0.022707900670218387,
+        "t": 0.7970078012308731,
+        "p_value": 0.42645190084358453
+      },
+      {
+        "term": "objective_same",
+        "coef": 0.20996132750879742,
+        "std_err": 0.0382398680447233,
+        "t": 5.490639435869337,
+        "p_value": 1.2857959719170253e-07
+      }
+    ]
+  },
+  "bitrate_over_objective": {
+    "f_stat": 4.719043599931016,
+    "df_num": 1,
+    "df_den": 187,
+    "p_value": 0.031088584201444336,
+    "delta_r2": 0.021212756108293873,
+    "improves": true
+  },
+  "partial_correlations": {
+    "tau_vs_bitrate_control_objective_same": {
+      "n": 190,
+      "correlation": 0.1568896766856083,
+      "p_value": 0.030640598107198918
+    },
+    "tau_vs_bitrate_control_objective_pair_type": {
+      "n": 190,
+      "correlation": 0.10644185097175526,
+      "p_value": 0.1438307260228922
+    },
+    "control_terms": [
+      "objective_same",
+      "objective_pair_type=mixed",
+      "objective_pair_type=self-supervised",
+      "objective_pair_type=supervised"
+    ]
+  },
+  "stratified": {
+    "same_objective_overall": {
+      "n": 67,
+      "pearson_r": 0.1952117967477635,
+      "pearson_p_value": 0.1134034388553822,
+      "regression": {
+        "n": 67,
+        "dof": 65,
+        "r2": 0.03810764558949031,
+        "adj_r2": 0.023309301675482508,
+        "sse": 10.032117526302374,
+        "features": [
+          "bitrate_avg"
+        ],
+        "coefficients": [
+          {
+            "term": "intercept",
+            "coef": -0.23318193495336373,
+            "std_err": 0.29140764388295365,
+            "t": -0.8001915524461096,
+            "p_value": 0.42651475593022203
+          },
+          {
+            "term": "bitrate_avg",
+            "coef": 0.06157277218607676,
+            "std_err": 0.038369770938770906,
+            "t": 1.6047208695702762,
+            "p_value": 0.11340343885538617
+          }
+        ]
+      }
+    },
+    "by_objective": {
+      "contrastive": {
+        "n": 3,
+        "pearson_r": -0.6165606601444152,
+        "pearson_p_value": 0.57705101821015,
+        "regression": {
+          "n": 3,
+          "dof": 1,
+          "r2": 0.3801470476377161,
+          "adj_r2": -0.23970590472456776,
+          "sse": 0.010216680831428173,
+          "features": [
+            "bitrate_avg"
+          ],
+          "coefficients": [
+            {
+              "term": "intercept",
+              "coef": 3.2365367102664813,
+              "std_err": 2.936851844819005,
+              "t": 1.102042895345967,
+              "p_value": 0.46911977050385856
+            },
+            {
+              "term": "bitrate_avg",
+              "coef": -0.3263511273914013,
+              "std_err": 0.4167289227660324,
+              "t": -0.7831256952967177,
+              "p_value": 0.577051018210486
+            }
+          ]
+        }
+      },
+      "supervised": {
+        "n": 36,
+        "pearson_r": -0.0956081733281924,
+        "pearson_p_value": 0.5791154515794625,
+        "regression": {
+          "n": 36,
+          "dof": 34,
+          "r2": 0.009140922807153506,
+          "adj_r2": -0.020001991227930338,
+          "sse": 6.449679588248776,
+          "features": [
+            "bitrate_avg"
+          ],
+          "coefficients": [
+            {
+              "term": "intercept",
+              "coef": 1.9869717398273272,
+              "std_err": 3.0453720975344067,
+              "t": 0.6524561453216238,
+              "p_value": 0.5184942185280081
+            },
+            {
+              "term": "bitrate_avg",
+              "coef": -0.20873169736321148,
+              "std_err": 0.3727004109421985,
+              "t": -0.5600522329329638,
+              "p_value": 0.5791154515790746
+            }
+          ]
+        }
+      },
+      "self-supervised": {
+        "n": 28,
+        "pearson_r": 0.28449764770519026,
+        "pearson_p_value": 0.14229361690921707,
+        "regression": {
+          "n": 28,
+          "dof": 26,
+          "r2": 0.0809389115497865,
+          "adj_r2": 0.0455904081478552,
+          "sse": 1.56369286505258,
+          "features": [
+            "bitrate_avg"
+          ],
+          "coefficients": [
+            {
+              "term": "intercept",
+              "coef": -0.21875770621093837,
+              "std_err": 0.20465949037541323,
+              "t": -1.0688862061058804,
+              "p_value": 0.294944776931521
+            },
+            {
+              "term": "bitrate_avg",
+              "coef": 0.045242554350992184,
+              "std_err": 0.029898813383590843,
+              "t": 1.5131889607305398,
+              "p_value": 0.1422936169092126
+            }
+          ]
+        }
+      }
+    }
+  },
+  "summary": "Adding bitrate_avg to objective_same increases explained variance in tau by 2.12 percentage points (delta R^2), based on observational regression. Highest R^2 among specified models is m5_tau_compatibility_no_bitrate at 0.3642."
+}

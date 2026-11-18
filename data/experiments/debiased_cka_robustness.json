@@ -1,0 +1,16 @@
+{
+  "description": "debiased (unbiased-HSIC) CKA robustness of Alignment Locality",
+  "estimator": "Song et al. 2012 unbiased HSIC / Nguyen et al. 2021 debiased CKA (linear kernel)",
+  "n_pairs": 190,
+  "pipeline_fidelity_mean_absdiff": 2.7e-05,
+  "pipeline_fidelity_max_absdiff": 5e-05,
+  "s_global_spearman_biased_vs_debiased": 0.9996,
+  "s_global_pearson_biased_vs_debiased": 0.9998,
+  "s_global_mean_biased": 0.441,
+  "s_global_mean_debiased": 0.4345,
+  "lambda_spearman_orig_vs_debiased": 0.9979,
+  "lambda_pearson_orig_vs_debiased": 0.9992,
+  "n_lambda_finite": 190,
+  "regime_labels_changed": 0,
+  "regime_invariance_reason": "classify_regime() branches on (bitrate, s_local, tau) only; s_global/lambda are reported, not decision inputs"
+}

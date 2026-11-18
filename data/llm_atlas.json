@@ -1,0 +1,742 @@
+{
+  "models": {
+    "pythia-410m": {
+      "bitrate": 0.528,
+      "effective_rank": 1.4,
+      "dim": 1024,
+      "n_samples": 1940,
+      "rep_layer": 17,
+      "family": "pythia",
+      "params": "410M"
+    },
+    "pythia-1.4b": {
+      "bitrate": 2.141,
+      "effective_rank": 4.4,
+      "dim": 2048,
+      "n_samples": 1940,
+      "rep_layer": 17,
+      "family": "pythia",
+      "params": "1.4B"
+    },
+    "pythia-2.8b": {
+      "bitrate": 5.174,
+      "effective_rank": 36.1,
+      "dim": 2560,
+      "n_samples": 1940,
+      "rep_layer": 23,
+      "family": "pythia",
+      "params": "2.8B"
+    },
+    "opt-1.3b": {
+      "bitrate": 7.585,
+      "effective_rank": 191.9,
+      "dim": 2048,
+      "n_samples": 1940,
+      "rep_layer": 17,
+      "family": "opt",
+      "params": "1.3B"
+    },
+    "phi-2": {
+      "bitrate": 3.894,
+      "effective_rank": 14.9,
+      "dim": 2560,
+      "n_samples": 1940,
+      "rep_layer": 23,
+      "family": "phi",
+      "params": "2.7B"
+    },
+    "gpt2-large": {
+      "bitrate": 5.463,
+      "effective_rank": 44.1,
+      "dim": 1280,
+      "n_samples": 1940,
+      "rep_layer": 26,
+      "family": "gpt2",
+      "params": "774M"
+    },
+    "pythia-6.9b": {
+      "bitrate": 2.728,
+      "effective_rank": 6.6,
+      "dim": 4096,
+      "n_samples": 1940,
+      "rep_layer": 23,
+      "family": "pythia",
+      "params": "6.9B"
+    },
+    "mistral-7b": {
+      "bitrate": 4.323,
+      "effective_rank": 20.0,
+      "dim": 4096,
+      "n_samples": 1940,
+      "rep_layer": 23,
+      "family": "mistral",
+      "params": "7.2B"
+    },
+    "falcon-7b": {
+      "bitrate": 4.941,
+      "effective_rank": 30.7,
+      "dim": 4544,
+      "n_samples": 1940,
+      "rep_layer": 23,
+      "family": "falcon",
+      "params": "7.2B"
+    }
+  },
+  "pairwise": {
+    "falcon-7b <-> gpt2-large": {
+      "s_local": 0.6301,
+      "s_global": 0.8774,
+      "lambda": 0.718,
+      "tau": 0.7165,
+      "tau_a_to_b": 0.9317,
+      "tau_b_to_a": 0.7165,
+      "tai": 0.0052,
+      "delta": 0.522,
+      "regime": "Convergent",
+      "family_a": "falcon",
+      "family_b": "gpt2"
+    },
+    "falcon-7b <-> mistral-7b": {
+      "s_local": 0.6534,
+      "s_global": 0.929,
+      "lambda": 0.703,
+      "tau": 0.0,
+      "tau_a_to_b": 0.0,
+      "tau_b_to_a": 0.3691,
+      "tai": 0.0324,
+      "delta": 0.619,
+      "regime": "Local-Only",
+      "family_a": "falcon",
+      "family_b": "mistral"
+    },
+    "falcon-7b <-> opt-1.3b": {
+      "s_local": 0.5864,
+      "s_global": 0.5835,
+      "lambda": 1.005,
+      "tau": 0.0,
+      "tau_a_to_b": 0.0,
+      "tau_b_to_a": 0.384,
+      "tai": 0.1807,
+      "delta": 2.643,
+      "regime": "Local-Only",
+      "family_a": "falcon",
+      "family_b": "opt"
+    },
+    "falcon-7b <-> phi-2": {
+      "s_local": 0.6349,
+      "s_global": 0.8127,
+      "lambda": 0.781,
+      "tau": 0.7006,
+      "tau_a_to_b": 0.8496,
+      "tau_b_to_a": 0.7006,
+      "tai": 0.0664,
+      "delta": 1.048,
+      "regime": "Convergent",
+      "family_a": "falcon",
+      "family_b": "phi"
+    },
+    "falcon-7b <-> pythia-1.4b": {
+      "s_local": 0.5708,
+      "s_global": 0.7122,
+      "lambda": 0.802,
+      "tau": 0.4468,
+      "tau_a_to_b": 0.6663,
+      "tau_b_to_a": 0.4468,
+      "tai": 0.1164,
+      "delta": 2.8,
+      "regime": "Local-Only",
+      "family_a": "falcon",
+      "family_b": "pythia"
+    },
+    "falcon-7b <-> pythia-2.8b": {
+      "s_local": 0.6657,
+      "s_global": 0.6899,
+      "lambda": 0.965,
+      "tau": 0.6821,
+      "tau_a_to_b": 0.8089,
+      "tau_b_to_a": 0.6821,
+      "tai": 0.0339,
+      "delta": 0.232,
+      "regime": "Convergent",
+      "family_a": "falcon",
+      "family_b": "pythia"
+    },
+    "falcon-7b <-> pythia-410m": {
+      "s_local": 0.423,
+      "s_global": 0.6895,
+      "lambda": 0.613,
+      "tau": 0.3566,
+      "tau_a_to_b": 0.3566,
+      "tau_b_to_a": 0.4926,
+      "tai": 0.163,
+      "delta": 4.413,
+      "regime": "Local-Only",
+      "family_a": "falcon",
+      "family_b": "pythia"
+    },
+    "falcon-7b <-> pythia-6.9b": {
+      "s_local": 0.6183,
+      "s_global": 0.6556,
+      "lambda": 0.943,
+      "tau": 0.0,
+      "tau_a_to_b": 0.4508,
+      "tau_b_to_a": 0.0,
+      "tai": 0.1027,
+      "delta": 2.213,
+      "regime": "Local-Only",
+      "family_a": "falcon",
+      "family_b": "pythia"
+    },
+    "gpt2-large <-> mistral-7b": {
+      "s_local": 0.5174,
+      "s_global": 0.8272,
+      "lambda": 0.625,
+      "tau": 0.0,
+      "tau_a_to_b": 0.0,
+      "tau_b_to_a": 0.3042,
+      "tai": 0.0569,
+      "delta": 1.141,
+      "regime": "Local-Only",
+      "family_a": "gpt2",
+      "family_b": "mistral"
+    },
+    "gpt2-large <-> opt-1.3b": {
+      "s_local": 0.7051,
+      "s_global": 0.6269,
+      "lambda": 1.125,
+      "tau": 0.0,
+      "tau_a_to_b": 0.0,
+      "tau_b_to_a": 0.3788,
+      "tai": 0.1727,
+      "delta": 2.121,
+      "regime": "Local-Only",
+      "family_a": "gpt2",
+      "family_b": "opt"
+    },
+    "gpt2-large <-> phi-2": {
+      "s_local": 0.5948,
+      "s_global": 0.8227,
+      "lambda": 0.723,
+      "tau": 0.7866,
+      "tau_a_to_b": 0.7866,
+      "tau_b_to_a": 0.8567,
+      "tai": 0.0788,
+      "delta": 1.569,
+      "regime": "Convergent",
+      "family_a": "gpt2",
+      "family_b": "phi"
+    },
+    "gpt2-large <-> pythia-1.4b": {
+      "s_local": 0.5542,
+      "s_global": 0.7268,
+      "lambda": 0.762,
+      "tau": 0.583,
+      "tau_a_to_b": 0.583,
+      "tau_b_to_a": 0.6395,
+      "tai": 0.1249,
+      "delta": 3.322,
+      "regime": "Convergent",
+      "family_a": "gpt2",
+      "family_b": "pythia"
+    },
+    "gpt2-large <-> pythia-2.8b": {
+      "s_local": 0.6175,
+      "s_global": 0.6487,
+      "lambda": 0.952,
+      "tau": 0.7179,
+      "tau_a_to_b": 0.7179,
+      "tau_b_to_a": 0.8226,
+      "tai": 0.0265,
+      "delta": 0.29,
+      "regime": "Convergent",
+      "family_a": "gpt2",
+      "family_b": "pythia"
+    },
+    "gpt2-large <-> pythia-410m": {
+      "s_local": 0.4519,
+      "s_global": 0.7418,
+      "lambda": 0.609,
+      "tau": 0.0139,
+      "tau_a_to_b": 0.0139,
+      "tau_b_to_a": 0.5312,
+      "tai": 0.1573,
+      "delta": 4.935,
+      "regime": "Local-Only",
+      "family_a": "gpt2",
+      "family_b": "pythia"
+    },
+    "gpt2-large <-> pythia-6.9b": {
+      "s_local": 0.542,
+      "s_global": 0.6424,
+      "lambda": 0.844,
+      "tau": 0.0,
+      "tau_a_to_b": 0.4948,
+      "tau_b_to_a": 0.0,
+      "tai": 0.1057,
+      "delta": 2.735,
+      "regime": "Local-Only",
+      "family_a": "gpt2",
+      "family_b": "pythia"
+    },
+    "mistral-7b <-> opt-1.3b": {
+      "s_local": 0.4816,
+      "s_global": 0.5705,
+      "lambda": 0.844,
+      "tau": 0.0,
+      "tau_a_to_b": 0.6545,
+      "tau_b_to_a": 0.0,
+      "tai": 0.2244,
+      "delta": 3.262,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "opt"
+    },
+    "mistral-7b <-> phi-2": {
+      "s_local": 0.6362,
+      "s_global": 0.8779,
+      "lambda": 0.725,
+      "tau": 0.0,
+      "tau_a_to_b": 0.2952,
+      "tau_b_to_a": 0.0,
+      "tai": 0.015,
+      "delta": 0.429,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "phi"
+    },
+    "mistral-7b <-> pythia-1.4b": {
+      "s_local": 0.5876,
+      "s_global": 0.7864,
+      "lambda": 0.747,
+      "tau": 0.0,
+      "tau_a_to_b": 0.2551,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0929,
+      "delta": 2.182,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "pythia"
+    },
+    "mistral-7b <-> pythia-2.8b": {
+      "s_local": 0.5885,
+      "s_global": 0.7641,
+      "lambda": 0.77,
+      "tau": 0.0,
+      "tau_a_to_b": 0.3055,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0068,
+      "delta": 0.851,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "pythia"
+    },
+    "mistral-7b <-> pythia-410m": {
+      "s_local": 0.4365,
+      "s_global": 0.7517,
+      "lambda": 0.581,
+      "tau": 0.0,
+      "tau_a_to_b": 0.2919,
+      "tau_b_to_a": 0.0,
+      "tai": 0.1417,
+      "delta": 3.794,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "pythia"
+    },
+    "mistral-7b <-> pythia-6.9b": {
+      "s_local": 0.6065,
+      "s_global": 0.7405,
+      "lambda": 0.819,
+      "tau": 0.0,
+      "tau_a_to_b": 0.1187,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0585,
+      "delta": 1.594,
+      "regime": "Local-Only",
+      "family_a": "mistral",
+      "family_b": "pythia"
+    },
+    "opt-1.3b <-> phi-2": {
+      "s_local": 0.5558,
+      "s_global": 0.5875,
+      "lambda": 0.946,
+      "tau": 0.0,
+      "tau_a_to_b": 0.2915,
+      "tau_b_to_a": 0.0,
+      "tai": 0.2221,
+      "delta": 3.691,
+      "regime": "Local-Only",
+      "family_a": "opt",
+      "family_b": "phi"
+    },
+    "opt-1.3b <-> pythia-1.4b": {
+      "s_local": 0.5053,
+      "s_global": 0.5151,
+      "lambda": 0.981,
+      "tau": 0.0,
+      "tau_a_to_b": 0.2178,
+      "tau_b_to_a": 0.0,
+      "tai": 0.2645,
+      "delta": 5.444,
+      "regime": "Local-Only",
+      "family_a": "opt",
+      "family_b": "pythia"
+    },
+    "opt-1.3b <-> pythia-2.8b": {
+      "s_local": 0.5892,
+      "s_global": 0.6294,
+      "lambda": 0.936,
+      "tau": 0.0,
+      "tau_a_to_b": 0.356,
+      "tau_b_to_a": 0.0,
+      "tai": 0.1919,
+      "delta": 2.411,
+      "regime": "Local-Only",
+      "family_a": "opt",
+      "family_b": "pythia"
+    },
+    "opt-1.3b <-> pythia-410m": {
+      "s_local": 0.4135,
+      "s_global": 0.4725,
+      "lambda": 0.875,
+      "tau": 0.0,
+      "tau_a_to_b": 0.1667,
+      "tau_b_to_a": 0.0,
+      "tai": 0.3317,
+      "delta": 7.056,
+      "regime": "Local-Only",
+      "family_a": "opt",
+      "family_b": "pythia"
+    },
+    "opt-1.3b <-> pythia-6.9b": {
+      "s_local": 0.5076,
+      "s_global": 0.5091,
+      "lambda": 0.997,
+      "tau": 0.0,
+      "tau_a_to_b": 0.1139,
+      "tau_b_to_a": 0.0,
+      "tai": 0.2499,
+      "delta": 4.856,
+      "regime": "Local-Only",
+      "family_a": "opt",
+      "family_b": "pythia"
+    },
+    "phi-2 <-> pythia-1.4b": {
+      "s_local": 0.6857,
+      "s_global": 0.9536,
+      "lambda": 0.719,
+      "tau": 0.907,
+      "tau_a_to_b": 0.907,
+      "tau_b_to_a": 0.9484,
+      "tai": 0.0519,
+      "delta": 1.753,
+      "regime": "Convergent",
+      "family_a": "phi",
+      "family_b": "pythia"
+    },
+    "phi-2 <-> pythia-2.8b": {
+      "s_local": 0.6546,
+      "s_global": 0.8967,
+      "lambda": 0.73,
+      "tau": 0.8751,
+      "tau_a_to_b": 0.8751,
+      "tau_b_to_a": 0.8858,
+      "tai": 0.0394,
+      "delta": 1.28,
+      "regime": "Convergent",
+      "family_a": "phi",
+      "family_b": "pythia"
+    },
+    "phi-2 <-> pythia-410m": {
+      "s_local": 0.5166,
+      "s_global": 0.9364,
+      "lambda": 0.552,
+      "tau": 0.5252,
+      "tau_a_to_b": 0.5252,
+      "tau_b_to_a": 0.8223,
+      "tai": 0.103,
+      "delta": 3.365,
+      "regime": "Convergent",
+      "family_a": "phi",
+      "family_b": "pythia"
+    },
+    "phi-2 <-> pythia-6.9b": {
+      "s_local": 0.6767,
+      "s_global": 0.9178,
+      "lambda": 0.737,
+      "tau": 0.0,
+      "tau_a_to_b": 0.6661,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0301,
+      "delta": 1.166,
+      "regime": "Local-Only",
+      "family_a": "phi",
+      "family_b": "pythia"
+    },
+    "pythia-1.4b <-> pythia-2.8b": {
+      "s_local": 0.6263,
+      "s_global": 0.9303,
+      "lambda": 0.673,
+      "tau": 0.7893,
+      "tau_a_to_b": 0.7919,
+      "tau_b_to_a": 0.7893,
+      "tai": 0.0817,
+      "delta": 3.033,
+      "regime": "Convergent",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    },
+    "pythia-1.4b <-> pythia-410m": {
+      "s_local": 0.6211,
+      "s_global": 0.9865,
+      "lambda": 0.63,
+      "tau": 0.7733,
+      "tau_a_to_b": 0.7733,
+      "tau_b_to_a": 0.9156,
+      "tai": 0.0382,
+      "delta": 1.613,
+      "regime": "Collapsed",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    },
+    "pythia-1.4b <-> pythia-6.9b": {
+      "s_local": 0.693,
+      "s_global": 0.981,
+      "lambda": 0.706,
+      "tau": 0.0,
+      "tau_a_to_b": 0.6963,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0087,
+      "delta": 0.587,
+      "regime": "Local-Only",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    },
+    "pythia-2.8b <-> pythia-410m": {
+      "s_local": 0.4322,
+      "s_global": 0.8755,
+      "lambda": 0.494,
+      "tau": 0.3533,
+      "tau_a_to_b": 0.3533,
+      "tau_b_to_a": 0.6573,
+      "tai": 0.144,
+      "delta": 4.645,
+      "regime": "Local-Only",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    },
+    "pythia-2.8b <-> pythia-6.9b": {
+      "s_local": 0.7211,
+      "s_global": 0.9601,
+      "lambda": 0.751,
+      "tau": 0.0,
+      "tau_a_to_b": 0.5874,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0661,
+      "delta": 2.446,
+      "regime": "Local-Only",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    },
+    "pythia-410m <-> pythia-6.9b": {
+      "s_local": 0.4779,
+      "s_global": 0.9525,
+      "lambda": 0.502,
+      "tau": 0.0,
+      "tau_a_to_b": 0.5285,
+      "tau_b_to_a": 0.0,
+      "tai": 0.0584,
+      "delta": 2.2,
+      "regime": "Collapsed",
+      "family_a": "pythia",
+      "family_b": "pythia"
+    }
+  },
+  "layerwise": {
+    "pythia-410m <-> pythia-2.8b": [
+      {
+        "frac_depth": 0.0,
+        "layer_a": 0,
+        "layer_b": 0,
+        "s_local": 0.7828,
+        "s_global": 0.9769
+      },
+      {
+        "frac_depth": 0.25,
+        "layer_a": 5,
+        "layer_b": 7,
+        "s_local": 0.4564,
+        "s_global": 0.8146
+      },
+      {
+        "frac_depth": 0.5,
+        "layer_a": 11,
+        "layer_b": 15,
+        "s_local": 0.5113,
+        "s_global": 0.9845
+      },
+      {
+        "frac_depth": 0.75,
+        "layer_a": 17,
+        "layer_b": 23,
+        "s_local": 0.4322,
+        "s_global": 0.8755
+      },
+      {
+        "frac_depth": 1.0,
+        "layer_a": 23,
+        "layer_b": 31,
+        "s_local": 0.6385,
+        "s_global": 0.2867
+      }
+    ],
+    "pythia-1.4b <-> opt-1.3b": [
+      {
+        "frac_depth": 0.0,
+        "layer_a": 0,
+        "layer_b": 0,
+        "s_local": 0.5116,
+        "s_global": 0.6204
+      },
+      {
+        "frac_depth": 0.25,
+        "layer_a": 5,
+        "layer_b": 5,
+        "s_local": 0.4338,
+        "s_global": 0.8296
+      },
+      {
+        "frac_depth": 0.5,
+        "layer_a": 11,
+        "layer_b": 11,
+        "s_local": 0.4359,
+        "s_global": 0.7292
+      },
+      {
+        "frac_depth": 0.75,
+        "layer_a": 17,
+        "layer_b": 17,
+        "s_local": 0.5053,
+        "s_global": 0.5151
+      },
+      {
+        "frac_depth": 1.0,
+        "layer_a": 23,
+        "layer_b": 23,
+        "s_local": 0.6508,
+        "s_global": 0.3552
+      }
+    ],
+    "phi-2 <-> gpt2-large": [
+      {
+        "frac_depth": 0.0,
+        "layer_a": 0,
+        "layer_b": 0,
+        "s_local": 0.3664,
+        "s_global": 0.324
+      },
+      {
+        "frac_depth": 0.25,
+        "layer_a": 7,
+        "layer_b": 8,
+        "s_local": 0.4888,
+        "s_global": 0.8485
+      },
+      {
+        "frac_depth": 0.5,
+        "layer_a": 15,
+        "layer_b": 17,
+        "s_local": 0.5681,
+        "s_global": 0.9101
+      },
+      {
+        "frac_depth": 0.75,
+        "layer_a": 23,
+        "layer_b": 26,
+        "s_local": 0.5948,
+        "s_global": 0.8227
+      },
+      {
+        "frac_depth": 1.0,
+        "layer_a": 31,
+        "layer_b": 35,
+        "s_local": 0.6746,
+        "s_global": 0.8009
+      }
+    ],
+    "mistral-7b <-> pythia-6.9b": [
+      {
+        "frac_depth": 0.0,
+        "layer_a": 0,
+        "layer_b": 0,
+        "s_local": 0.5325,
+        "s_global": 0.7472
+      },
+      {
+        "frac_depth": 0.25,
+        "layer_a": 7,
+        "layer_b": 7,
+        "s_local": 0.4499,
+        "s_global": 0.7632
+      },
+      {
+        "frac_depth": 0.5,
+        "layer_a": 15,
+        "layer_b": 15,
+        "s_local": 0.5169,
+        "s_global": 0.7562
+      },
+      {
+        "frac_depth": 0.75,
+        "layer_a": 23,
+        "layer_b": 23,
+        "s_local": 0.6065,
+        "s_global": 0.7405
+      },
+      {
+        "frac_depth": 1.0,
+        "layer_a": 31,
+        "layer_b": 31,
+        "s_local": 0.649,
+        "s_global": 0.6476
+      }
+    ],
+    "falcon-7b <-> mistral-7b": [
+      {
+        "frac_depth": 0.0,
+        "layer_a": 0,
+        "layer_b": 0,
+        "s_local": 0.5486,
+        "s_global": 0.7899
+      },
+      {
+        "frac_depth": 0.25,
+        "layer_a": 7,
+        "layer_b": 7,
+        "s_local": 0.498,
+        "s_global": 0.9455
+      },
+      {
+        "frac_depth": 0.5,
+        "layer_a": 15,
+        "layer_b": 15,
+        "s_local": 0.5397,
+        "s_global": 0.9434
+      },
+      {
+        "frac_depth": 0.75,
+        "layer_a": 23,
+        "layer_b": 23,
+        "s_local": 0.6534,
+        "s_global": 0.929
+      },
+      {
+        "frac_depth": 1.0,
+        "layer_a": 31,
+        "layer_b": 31,
+        "s_local": 0.7615,
+        "s_global": 0.9334
+      }
+    ]
+  }
+}

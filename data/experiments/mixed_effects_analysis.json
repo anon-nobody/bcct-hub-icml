@@ -1,0 +1,224 @@
+{
+ "description": "Mixed-effects, block bootstrap, and LOO analysis of BCCT vision atlas",
+ "source": "data/atlas.json",
+ "n_pairs": 190,
+ "n_models": 20,
+ "mixed_effects": {
+  "formula": "tau ~ delta + same_obj + same_fam + (1|model_node)",
+  "n_obs": 190,
+  "n_obs_duplicated": 380,
+  "n_groups": 20,
+  "aic": -505.12,
+  "bic": -481.48,
+  "log_likelihood": 258.56,
+  "fixed_effects": {
+   "intercept": {
+    "coef": 0.1461,
+    "std_err": 0.0138,
+    "z": 10.577,
+    "p_value": 3.8e-26,
+    "ci_95": [
+     0.119,
+     0.1731
+    ]
+   },
+   "delta": {
+    "coef": -0.0337,
+    "std_err": 0.0044,
+    "z": -7.724,
+    "p_value": 1.13e-14,
+    "ci_95": [
+     -0.0422,
+     -0.0251
+    ]
+   },
+   "same_obj": {
+    "coef": 0.0424,
+    "std_err": 0.0186,
+    "z": 2.279,
+    "p_value": 0.0227,
+    "ci_95": [
+     0.0059,
+     0.0788
+    ]
+   },
+   "same_fam": {
+    "coef": 0.2013,
+    "std_err": 0.0237,
+    "z": 8.483,
+    "p_value": 2.2e-17,
+    "ci_95": [
+     0.1548,
+     0.2479
+    ]
+   }
+  },
+  "random_effect_variance": 0.001383,
+  "lrt_for_delta": {
+   "chi2": 55.07,
+   "df": 1,
+   "p_value": 1.1628949457601319e-13,
+   "method": "likelihood_ratio",
+   "interpretation": "bitrate adds significant variance beyond family/objective"
+  },
+  "r2_nakagawa": {
+   "marginal": 0.5098,
+   "conditional": 0.5533,
+   "method": "Nakagawa & Schielzeth (2013) on the duplicated-pair LMM: var_fixed/(var_fixed+var_re+var_resid)"
+  }
+ },
+ "block_bootstrap_all_pairs": {
+  "subset": "all_pairs",
+  "n_pairs": 190,
+  "n_bootstraps_valid": 2000,
+  "n_bootstraps_requested": 2000,
+  "median_rho": -0.7021,
+  "mean_rho": -0.684,
+  "ci_95": [
+   -0.8169,
+   -0.4272
+  ]
+ },
+ "block_bootstrap_same_obj": {
+  "subset": "same_obj",
+  "n_pairs": 67,
+  "n_bootstraps_valid": 2000,
+  "n_bootstraps_requested": 2000,
+  "median_rho": -0.7096,
+  "mean_rho": -0.6697,
+  "ci_95": [
+   -0.8698,
+   -0.2991
+  ]
+ },
+ "leave_one_out": {
+  "per_model": [
+   {
+    "held_out": "beit_base_patch16_224",
+    "n_pairs": 171,
+    "rho": -0.7127,
+    "p_value": 8.17e-28
+   },
+   {
+    "held_out": "beit_large_patch16_224",
+    "n_pairs": 171,
+    "rho": -0.7333,
+    "p_value": 4.03e-30
+   },
+   {
+    "held_out": "clip_vitb16",
+    "n_pairs": 171,
+    "rho": -0.7211,
+    "p_value": 9.78e-29
+   },
+   {
+    "held_out": "clip_vitb32",
+    "n_pairs": 171,
+    "rho": -0.7227,
+    "p_value": 6.58e-29
+   },
+   {
+    "held_out": "clip_vitl14",
+    "n_pairs": 171,
+    "rho": -0.7564,
+    "p_value": 5.62e-33
+   },
+   {
+    "held_out": "convnext_base",
+    "n_pairs": 171,
+    "rho": -0.6948,
+    "p_value": 5.67e-26
+   },
+   {
+    "held_out": "convnext_large",
+    "n_pairs": 171,
+    "rho": -0.691,
+    "p_value": 1.34e-25
+   },
+   {
+    "held_out": "dinov2_vitb14",
+    "n_pairs": 171,
+    "rho": -0.7118,
+    "p_value": 1e-27
+   },
+   {
+    "held_out": "dinov2_vitg14",
+    "n_pairs": 171,
+    "rho": -0.7179,
+    "p_value": 2.2e-28
+   },
+   {
+    "held_out": "dinov2_vitl14",
+    "n_pairs": 171,
+    "rho": -0.7129,
+    "p_value": 7.77e-28
+   },
+   {
+    "held_out": "dinov2_vits14",
+    "n_pairs": 171,
+    "rho": -0.7473,
+    "p_value": 8.2e-32
+   },
+   {
+    "held_out": "efficientnet_b0",
+    "n_pairs": 171,
+    "rho": -0.694,
+    "p_value": 6.7e-26
+   },
+   {
+    "held_out": "mixer_b16_224",
+    "n_pairs": 171,
+    "rho": -0.7175,
+    "p_value": 2.44e-28
+   },
+   {
+    "held_out": "resnet101",
+    "n_pairs": 171,
+    "rho": -0.7057,
+    "p_value": 4.43e-27
+   },
+   {
+    "held_out": "resnet50",
+    "n_pairs": 171,
+    "rho": -0.7148,
+    "p_value": 4.86e-28
+   },
+   {
+    "held_out": "swin_base_patch4_window7_224",
+    "n_pairs": 171,
+    "rho": -0.6946,
+    "p_value": 5.85e-26
+   },
+   {
+    "held_out": "vit_base_patch16_224",
+    "n_pairs": 171,
+    "rho": -0.7337,
+    "p_value": 3.61e-30
+   },
+   {
+    "held_out": "vit_base_patch16_224.mae",
+    "n_pairs": 171,
+    "rho": -0.6421,
+    "p_value": 2.98e-21
+   },
+   {
+    "held_out": "vit_large_patch16_224",
+    "n_pairs": 171,
+    "rho": -0.7351,
+    "p_value": 2.47e-30
+   },
+   {
+    "held_out": "vit_large_patch16_224.mae",
+    "n_pairs": 171,
+    "rho": -0.6544,
+    "p_value": 2.82e-22
+   }
+  ],
+  "n_models": 20,
+  "rho_range": [
+   -0.7564,
+   -0.6421
+  ],
+  "rho_median": -0.7138
+ }
+}

@@ -1,0 +1,76 @@
+{
+  "note": "deconfounding on existing atlas; family~objective confound + supervised bucket",
+  "same_family_vs_same_obj_corr": 0.689,
+  "same_family_vs_same_arch_corr": -0.064,
+  "supervised_vs_mae_same_architecture": {
+    "vit_base_patch16_224": {
+      "mean_tau_supervised": 0.2077,
+      "mean_tau_mae": 0.0044,
+      "n_anchors": 18,
+      "bitrate_supervised": 7.77,
+      "bitrate_mae": 1.649
+    },
+    "vit_large_patch16_224": {
+      "mean_tau_supervised": 0.1333,
+      "mean_tau_mae": 0.0012,
+      "n_anchors": 18,
+      "bitrate_supervised": 7.661,
+      "bitrate_mae": 4.898
+    }
+  },
+  "ols_tau": {
+    "same_family": {
+      "r2": 0.4303,
+      "coef": {
+        "intercept": 0.0859,
+        "same_family": 0.2919
+      }
+    },
+    "same_obj": {
+      "r2": 0.2237,
+      "coef": {
+        "intercept": 0.0831,
+        "same_obj": 0.178
+      }
+    },
+    "same_arch": {
+      "r2": 0.0455,
+      "coef": {
+        "intercept": 0.1785,
+        "same_arch": -0.0777
+      }
+    },
+    "same_obj+dbr": {
+      "r2": 0.4185,
+      "coef": {
+        "intercept": 0.1656,
+        "same_obj": 0.1608,
+        "dbr": -0.0456
+      }
+    },
+    "same_obj+same_arch+dbr": {
+      "r2": 0.4554,
+      "coef": {
+        "intercept": 0.1852,
+        "same_obj": 0.172,
+        "same_arch": -0.072,
+        "dbr": -0.0415
+      }
+    },
+    "same_family+same_obj+same_arch+dbr": {
+      "r2": 0.5391,
+      "coef": {
+        "intercept": 0.159,
+        "same_family": 0.1932,
+        "same_obj": 0.0614,
+        "same_arch": -0.0553,
+        "dbr": -0.0305
+      }
+    }
+  },
+  "lofo_auc_tau_ge_0p5": {
+    "same_obj+dbr": 0.89,
+    "same_arch+same_obj+dbr": 0.888,
+    "same_family+dbr": 0.824
+  }
+}

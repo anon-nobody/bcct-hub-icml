@@ -1,0 +1,1268 @@
+{
+  "experiment": "Track B: Bitrate Sweep",
+  "config": {
+    "k": 10,
+    "n_permutations": 50,
+    "seed": 42,
+    "device": "cuda:0",
+    "n_pairs": 8
+  },
+  "results": [
+    {
+      "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+      "model_a": "dinov2_vitb14",
+      "model_b": "dinov2_vitl14",
+      "bitrate_sweep": {
+        "model_name": "dinov2_vitb14",
+        "reference_name": "dinov2_vitl14",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.3627,
+            "s_local": 0.5137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 9.0057,
+            "s_local": 0.514,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.4584,
+            "s_local": 0.5133,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.4962,
+            "s_local": 0.4999,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.5239,
+            "s_local": 0.4605,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.5396,
+            "s_local": 0.4044,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "dinov2_vitl14",
+        "reference_name": "dinov2_vitb14",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.7616,
+            "s_local": 0.5137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 9.4075,
+            "s_local": 0.5135,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.8634,
+            "s_local": 0.5113,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.905,
+            "s_local": 0.4959,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.9405,
+            "s_local": 0.462,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.9646,
+            "s_local": 0.4146,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.5137,
+        "s_global": 0.6823,
+        "lambda_val": 0.7529,
+        "raw_overlap": 0.5147,
+        "null_mean": 0.0021,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "dinov2_vitb14",
+        "model_b_name": "dinov2_vitl14",
+        "points": [
+          {
+            "delta": 0.3988,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 1.0,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.7558,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.75,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 1.3031,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 1.0,
+            "tai": 1.0,
+            "compression_level": 0.5,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 2.2654,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.1576,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 3.2377,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.9144,
+            "compression_level": 0.125,
+            "regime": "Convergent"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "resnet50 <-> resnet101",
+      "model_a": "resnet50",
+      "model_b": "resnet101",
+      "bitrate_sweep": {
+        "model_name": "resnet50",
+        "reference_name": "resnet101",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 10.363,
+            "s_local": 0.3194,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 10.1057,
+            "s_local": 0.3197,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 9.6217,
+            "s_local": 0.3198,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 8.7042,
+            "s_local": 0.3202,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 7.7545,
+            "s_local": 0.317,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 6.7991,
+            "s_local": 0.3037,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "resnet101",
+        "reference_name": "resnet50",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 10.4752,
+            "s_local": 0.3195,
+            "tau": 0.1015,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 10.1962,
+            "s_local": 0.3195,
+            "tau": 0.2651,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 9.6932,
+            "s_local": 0.3193,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 8.7623,
+            "s_local": 0.3177,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 7.8079,
+            "s_local": 0.3111,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 6.847,
+            "s_local": 0.2986,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.3195,
+        "s_global": 0.7468,
+        "lambda_val": 0.4278,
+        "raw_overlap": 0.3208,
+        "null_mean": 0.002,
+        "interpretation": "Inflated: CKA confounded by scale; local alignment not significant."
+      },
+      "transport_stress_test": {
+        "model_a_name": "resnet50",
+        "model_b_name": "resnet101",
+        "points": [
+          {
+            "delta": 0.112,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.1073,
+            "tai": 0.816,
+            "compression_level": 1.0,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 0.3693,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.0963,
+            "tai": 0.9704,
+            "compression_level": 0.75,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 0.8533,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0778,
+            "tai": 1.0,
+            "compression_level": 0.5,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 1.7708,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0195,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 2.7205,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.125,
+            "regime": "Convergent"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "clip_vitb16 <-> clip_vitl14",
+      "model_a": "clip_vitb16",
+      "model_b": "clip_vitl14",
+      "bitrate_sweep": {
+        "model_name": "clip_vitb16",
+        "reference_name": "clip_vitl14",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 8.4655,
+            "s_local": 0.2907,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 8.2003,
+            "s_local": 0.2908,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 7.7053,
+            "s_local": 0.292,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 6.7916,
+            "s_local": 0.2848,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 5.8464,
+            "s_local": 0.2632,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 4.8846,
+            "s_local": 0.2208,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "clip_vitl14",
+        "reference_name": "clip_vitb16",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 8.9308,
+            "s_local": 0.2907,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 8.8035,
+            "s_local": 0.2908,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.305,
+            "s_local": 0.2909,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.3828,
+            "s_local": 0.2884,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.4354,
+            "s_local": 0.2762,
+            "tau": 1.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.4714,
+            "s_local": 0.2477,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.2907,
+        "s_global": 0.7183,
+        "lambda_val": 0.4047,
+        "raw_overlap": 0.2921,
+        "null_mean": 0.002,
+        "interpretation": "Inflated: CKA confounded by scale; local alignment not significant."
+      },
+      "transport_stress_test": {
+        "model_a_name": "clip_vitb16",
+        "model_b_name": "clip_vitl14",
+        "points": [
+          {
+            "delta": 0.4651,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 1.0,
+            "tai": 0.3987,
+            "compression_level": 1.0,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 0.7304,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 1.0,
+            "tai": 0.4038,
+            "compression_level": 0.75,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 1.2254,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 1.0,
+            "tai": 0.3837,
+            "compression_level": 0.5,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 2.1391,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.902,
+            "tai": 0.4938,
+            "compression_level": 0.25,
+            "regime": "Convergent"
+          },
+          {
+            "delta": 3.0843,
+            "tau_a_to_b": 1.0,
+            "tau_b_to_a": 0.3763,
+            "tai": 0.5487,
+            "compression_level": 0.125,
+            "regime": "Convergent"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "dinov2_vitl14 <-> beit_large_patch16_224",
+      "model_a": "dinov2_vitl14",
+      "model_b": "beit_large_patch16_224",
+      "bitrate_sweep": {
+        "model_name": "dinov2_vitl14",
+        "reference_name": "beit_large_patch16_224",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.7616,
+            "s_local": 0.0722,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 9.4075,
+            "s_local": 0.0724,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.8634,
+            "s_local": 0.0724,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.905,
+            "s_local": 0.0724,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.9405,
+            "s_local": 0.0715,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.9646,
+            "s_local": 0.0683,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "beit_large_patch16_224",
+        "reference_name": "dinov2_vitl14",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.3985,
+            "s_local": 0.0723,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 9.0829,
+            "s_local": 0.0725,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.5684,
+            "s_local": 0.073,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.6361,
+            "s_local": 0.0731,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.6864,
+            "s_local": 0.0697,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.7313,
+            "s_local": 0.0626,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.0722,
+        "s_global": 0.1615,
+        "lambda_val": 0.4473,
+        "raw_overlap": 0.0741,
+        "null_mean": 0.002,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "dinov2_vitl14",
+        "model_b_name": "beit_large_patch16_224",
+        "points": [
+          {
+            "delta": 0.3632,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 1.0,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.0092,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.75,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.535,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.5,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 1.4933,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.25,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 2.4579,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.125,
+            "regime": "Local-Only"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224 <-> resnet50",
+      "model_a": "vit_base_patch16_224",
+      "model_b": "resnet50",
+      "bitrate_sweep": {
+        "model_name": "vit_base_patch16_224",
+        "reference_name": "resnet50",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.1664,
+            "s_local": 0.2137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 8.8534,
+            "s_local": 0.2137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.3512,
+            "s_local": 0.2143,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.4225,
+            "s_local": 0.2123,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.4597,
+            "s_local": 0.2024,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.4838,
+            "s_local": 0.185,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "resnet50",
+        "reference_name": "vit_base_patch16_224",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 10.363,
+            "s_local": 0.2138,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 10.1057,
+            "s_local": 0.2137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 9.6217,
+            "s_local": 0.2137,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 8.7042,
+            "s_local": 0.214,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 7.7545,
+            "s_local": 0.212,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 6.7991,
+            "s_local": 0.2045,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.2137,
+        "s_global": 0.6391,
+        "lambda_val": 0.3344,
+        "raw_overlap": 0.2153,
+        "null_mean": 0.002,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "vit_base_patch16_224",
+        "model_b_name": "resnet50",
+        "points": [
+          {
+            "delta": 1.1965,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 1.0,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 1.5095,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.75,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 2.0116,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.5,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 2.9403,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.976,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 3.9031,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.4466,
+            "tai": 1.0,
+            "compression_level": 0.125,
+            "regime": "Local-Only"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "dinov2_vitb14 <-> clip_vitb16",
+      "model_a": "dinov2_vitb14",
+      "model_b": "clip_vitb16",
+      "bitrate_sweep": {
+        "model_name": "dinov2_vitb14",
+        "reference_name": "clip_vitb16",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.3627,
+            "s_local": 0.2241,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 9.0057,
+            "s_local": 0.2245,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.4584,
+            "s_local": 0.2241,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.4962,
+            "s_local": 0.222,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.5239,
+            "s_local": 0.2126,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.5396,
+            "s_local": 0.202,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "clip_vitb16",
+        "reference_name": "dinov2_vitb14",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 8.4655,
+            "s_local": 0.224,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 8.2003,
+            "s_local": 0.2242,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 7.7053,
+            "s_local": 0.2243,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 6.7916,
+            "s_local": 0.2212,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 5.8464,
+            "s_local": 0.2053,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 4.8846,
+            "s_local": 0.1688,
+            "tau": 1.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.2241,
+        "s_global": 0.4886,
+        "lambda_val": 0.4586,
+        "raw_overlap": 0.2256,
+        "null_mean": 0.002,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "dinov2_vitb14",
+        "model_b_name": "clip_vitb16",
+        "points": [
+          {
+            "delta": 0.8972,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 1.0,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.5402,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.75,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.0071,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 0.0,
+            "compression_level": 0.5,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 0.9693,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Local-Only"
+          },
+          {
+            "delta": 1.9416,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.8671,
+            "tai": 0.528,
+            "compression_level": 0.125,
+            "regime": "Local-Only"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224.mae <-> vit_base_patch16_224",
+      "model_a": "vit_base_patch16_224.mae",
+      "model_b": "vit_base_patch16_224",
+      "bitrate_sweep": {
+        "model_name": "vit_base_patch16_224.mae",
+        "reference_name": "vit_base_patch16_224",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 6.9984,
+            "s_local": 0.0265,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 6.7933,
+            "s_local": 0.0266,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 6.4056,
+            "s_local": 0.0265,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 5.6351,
+            "s_local": 0.0265,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 4.8296,
+            "s_local": 0.0258,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 4.0489,
+            "s_local": 0.0252,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "vit_base_patch16_224",
+        "reference_name": "vit_base_patch16_224.mae",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 9.1664,
+            "s_local": 0.0266,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 8.8534,
+            "s_local": 0.0266,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 8.3512,
+            "s_local": 0.0264,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 7.4225,
+            "s_local": 0.0263,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 6.4597,
+            "s_local": 0.0258,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 5.4838,
+            "s_local": 0.0249,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.0265,
+        "s_global": 0.1539,
+        "lambda_val": 0.1724,
+        "raw_overlap": 0.0285,
+        "null_mean": 0.002,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "vit_base_patch16_224.mae",
+        "model_b_name": "vit_base_patch16_224",
+        "points": [
+          {
+            "delta": 2.1679,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 1.0,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 2.373,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.75,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 2.7607,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.5,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 3.5312,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 4.3367,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.125,
+            "regime": "Divergent"
+          }
+        ]
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224.mae <-> resnet101",
+      "model_a": "vit_base_patch16_224.mae",
+      "model_b": "resnet101",
+      "bitrate_sweep": {
+        "model_name": "vit_base_patch16_224.mae",
+        "reference_name": "resnet101",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 6.9984,
+            "s_local": 0.0302,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 6.7933,
+            "s_local": 0.0302,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 6.4056,
+            "s_local": 0.0301,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 5.6351,
+            "s_local": 0.0301,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 4.8296,
+            "s_local": 0.0296,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 4.0489,
+            "s_local": 0.0287,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "bitrate_sweep_reverse": {
+        "model_name": "resnet101",
+        "reference_name": "vit_base_patch16_224.mae",
+        "compression_method": "rank_reduction",
+        "points": [
+          {
+            "level": 1.0,
+            "bitrate": 10.4752,
+            "s_local": 0.0303,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.75,
+            "bitrate": 10.1962,
+            "s_local": 0.0303,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.5,
+            "bitrate": 9.6932,
+            "s_local": 0.0303,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.25,
+            "bitrate": 8.7623,
+            "s_local": 0.0306,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.125,
+            "bitrate": 7.8079,
+            "s_local": 0.0303,
+            "tau": 0.0,
+            "downstream_acc": null
+          },
+          {
+            "level": 0.0625,
+            "bitrate": 6.847,
+            "s_local": 0.0291,
+            "tau": 0.0,
+            "downstream_acc": null
+          }
+        ]
+      },
+      "neighborhood_alignment": {
+        "s_local": 0.0302,
+        "s_global": 0.144,
+        "lambda_val": 0.2095,
+        "raw_overlap": 0.0321,
+        "null_mean": 0.002,
+        "interpretation": "No meaningful alignment (Collapsed or Divergent regime)."
+      },
+      "transport_stress_test": {
+        "model_a_name": "vit_base_patch16_224.mae",
+        "model_b_name": "resnet101",
+        "points": [
+          {
+            "delta": 3.4766,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 1.0,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 3.6817,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.75,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 4.0694,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.5,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 4.8399,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.25,
+            "regime": "Divergent"
+          },
+          {
+            "delta": 5.6454,
+            "tau_a_to_b": 0.0,
+            "tau_b_to_a": 0.0,
+            "tai": 1.0,
+            "compression_level": 0.125,
+            "regime": "Divergent"
+          }
+        ]
+      }
+    }
+  ]
+}

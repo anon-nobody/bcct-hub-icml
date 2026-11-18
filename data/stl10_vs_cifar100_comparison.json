@@ -1,0 +1,175 @@
+{
+  "agreement_rate": 85.71428571428571,
+  "matches": 24,
+  "total": 28,
+  "pairs": [
+    {
+      "pair": "dinov2_vitb14 x clip_vitl14",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "dinov2_vitb14 x resnet50",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "dinov2_vitb14 x vit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "dinov2_vitb14 x convnext_base",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "dinov2_vitb14 x vit_base_patch16_224.mae",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "dinov2_vitb14 x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Divergent",
+      "match": false
+    },
+    {
+      "pair": "dinov2_vitb14 x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "clip_vitl14 x resnet50",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "clip_vitl14 x vit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "clip_vitl14 x convnext_base",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Convergent",
+      "match": false
+    },
+    {
+      "pair": "clip_vitl14 x vit_base_patch16_224.mae",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "clip_vitl14 x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Divergent",
+      "match": false
+    },
+    {
+      "pair": "clip_vitl14 x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "resnet50 x vit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "resnet50 x convnext_base",
+      "stl10_regime": "Convergent",
+      "cifar100_regime": "Local-Only",
+      "match": false
+    },
+    {
+      "pair": "resnet50 x vit_base_patch16_224.mae",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "resnet50 x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "resnet50 x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224 x convnext_base",
+      "stl10_regime": "Convergent",
+      "cifar100_regime": "Convergent",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224 x vit_base_patch16_224.mae",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224 x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224 x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "convnext_base x vit_base_patch16_224.mae",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "convnext_base x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "convnext_base x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224.mae x beit_base_patch16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    },
+    {
+      "pair": "vit_base_patch16_224.mae x mixer_b16_224",
+      "stl10_regime": "Divergent",
+      "cifar100_regime": "Divergent",
+      "match": true
+    },
+    {
+      "pair": "beit_base_patch16_224 x mixer_b16_224",
+      "stl10_regime": "Local-Only",
+      "cifar100_regime": "Local-Only",
+      "match": true
+    }
+  ]
+}

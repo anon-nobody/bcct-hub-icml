@@ -1,0 +1,31 @@
+# BCCT Base Configuration
+# See src/latent/utils/config.py for field descriptions.
+
+experiment_name: "bcct_base"
+
+model:
+  encoder: "dinov2_vitl14"
+  latent_channels: 16
+  latent_dim: 768
+  noise_schedule: "cosine"
+
+training:
+  batch_size: 256
+  lr: 1.0e-4
+  epochs: 100
+  warmup_epochs: 5
+  weight_decay: 0.05
+  seed: 42
+  gradient_clip: 1.0
+
+evaluation:
+  k: 10
+  n_permutations: 1000
+  reference_encoder: "openai/clip-vit-large-patch14"
+  compression_levels: [1.0, 0.75, 0.5, 0.25, 0.125, 0.0625]
+
+wandb:
+  project: "bcct"
+  entity: ""
+  enabled: true
+  tags: ["baseline"]

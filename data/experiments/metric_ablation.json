@@ -1,0 +1,111 @@
+{
+  "n_pairs": 10,
+  "results": [
+    {
+      "pair": "clip_vitb16 <-> clip_vitl14",
+      "tau_atlas": 0.468,
+      "perf_linear_r2_perdim": 0.327,
+      "perf_linear_cosine": 0.9095,
+      "perf_linear_procrustes_dist": 0.5886,
+      "cca_mean": 0.6522
+    },
+    {
+      "pair": "resnet50 <-> resnet101",
+      "tau_atlas": 0.5445,
+      "perf_linear_r2_perdim": 0.0969,
+      "perf_linear_cosine": 0.7059,
+      "perf_linear_procrustes_dist": 0.5322,
+      "cca_mean": 0.9941
+    },
+    {
+      "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+      "tau_atlas": 0.4073,
+      "perf_linear_r2_perdim": 0.0701,
+      "perf_linear_cosine": 0.5592,
+      "perf_linear_procrustes_dist": 0.5149,
+      "cca_mean": 0.7564
+    },
+    {
+      "pair": "convnext_base <-> convnext_large",
+      "tau_atlas": 0.8475,
+      "perf_linear_r2_perdim": 0.3942,
+      "perf_linear_cosine": 0.7591,
+      "perf_linear_procrustes_dist": 0.6265,
+      "cca_mean": 0.7126
+    },
+    {
+      "pair": "dinov2_vitb14 <-> clip_vitb16",
+      "tau_atlas": 0.0449,
+      "perf_linear_r2_perdim": 0.0079,
+      "perf_linear_cosine": 0.7826,
+      "perf_linear_procrustes_dist": 0.4958,
+      "cca_mean": 0.7863
+    },
+    {
+      "pair": "vit_base_patch16_224.mae <-> vit_base_patch16_224",
+      "tau_atlas": 0.0024,
+      "perf_linear_r2_perdim": 0.0274,
+      "perf_linear_cosine": 0.5584,
+      "perf_linear_procrustes_dist": 0.3794,
+      "cca_mean": 0.4586
+    },
+    {
+      "pair": "beit_base_patch16_224 <-> resnet50",
+      "tau_atlas": 0.2277,
+      "perf_linear_r2_perdim": 0.0043,
+      "perf_linear_cosine": 0.6273,
+      "perf_linear_procrustes_dist": 0.4309,
+      "cca_mean": 0.7052
+    },
+    {
+      "pair": "clip_vitb32 <-> dinov2_vits14",
+      "tau_atlas": 0.0099,
+      "perf_linear_r2_perdim": 0.2507,
+      "perf_linear_cosine": 0.6024,
+      "perf_linear_procrustes_dist": 0.5047,
+      "cca_mean": 0.6911
+    },
+    {
+      "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+      "tau_atlas": 0.179,
+      "perf_linear_r2_perdim": 0.0462,
+      "perf_linear_cosine": 0.6604,
+      "perf_linear_procrustes_dist": 0.5005,
+      "cca_mean": 0.6745
+    },
+    {
+      "pair": "efficientnet_b0 <-> swin_base_patch4_window7_224",
+      "tau_atlas": 0.3716,
+      "perf_linear_r2_perdim": 0.0579,
+      "perf_linear_cosine": 0.6211,
+      "perf_linear_procrustes_dist": 0.4959,
+      "cca_mean": 0.8218
+    }
+  ],
+  "rank_correlations": {
+    "perf_linear_r2_perdim_vs_perf_linear_cosine": {
+      "kendall_tau": 0.2,
+      "spearman_rho": 0.2727
+    },
+    "perf_linear_r2_perdim_vs_perf_linear_procrustes_dist": {
+      "kendall_tau": 0.7778,
+      "spearman_rho": 0.9152
+    },
+    "perf_linear_r2_perdim_vs_cca_mean": {
+      "kendall_tau": 0.0222,
+      "spearman_rho": 0.0061
+    },
+    "perf_linear_cosine_vs_perf_linear_procrustes_dist": {
+      "kendall_tau": 0.3333,
+      "spearman_rho": 0.4788
+    },
+    "perf_linear_cosine_vs_cca_mean": {
+      "kendall_tau": 0.1111,
+      "spearman_rho": 0.1636
+    },
+    "perf_linear_procrustes_dist_vs_cca_mean": {
+      "kendall_tau": 0.1556,
+      "spearman_rho": 0.1758
+    }
+  }
+}

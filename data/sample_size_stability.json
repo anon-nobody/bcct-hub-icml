@@ -1,0 +1,41 @@
+{
+  "reference_n": 5000,
+  "sample_sizes_tested": [
+    1000,
+    2000,
+    5000
+  ],
+  "agreement_rates": {
+    "1000": {
+      "agreement": 0.958,
+      "flipped_pairs": [
+        "beit_base_patch16_224 <-> clip_vitb16",
+        "beit_base_patch16_224 <-> clip_vitb32",
+        "beit_base_patch16_224 <-> clip_vitl14",
+        "beit_base_patch16_224 <-> dinov2_vitb14",
+        "beit_base_patch16_224 <-> dinov2_vitg14",
+        "beit_base_patch16_224 <-> dinov2_vitl14",
+        "beit_base_patch16_224 <-> vit_large_patch16_224",
+        "resnet50 <-> vit_base_patch16_224.mae"
+      ],
+      "total": 190
+    },
+    "2000": {
+      "agreement": 0.968,
+      "flipped_pairs": [
+        "beit_base_patch16_224 <-> clip_vitb16",
+        "beit_base_patch16_224 <-> clip_vitb32",
+        "beit_base_patch16_224 <-> clip_vitl14",
+        "beit_base_patch16_224 <-> dinov2_vitb14",
+        "beit_base_patch16_224 <-> dinov2_vitg14",
+        "beit_base_patch16_224 <-> vit_large_patch16_224"
+      ],
+      "total": 190
+    },
+    "5000": {
+      "agreement": 1.0,
+      "flipped_pairs": [],
+      "total": 190
+    }
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "k_values": [
+    3,
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "n_pairs": 15,
+  "regime_stability": 0.9333,
+  "results": [
+    {
+      "pair": "clip_vitb16 <-> clip_vitl14",
+      "tau": 0.468,
+      "regimes": {
+        "3": {
+          "s_local": 0.2109,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2428,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.2907,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3381,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3783,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.3985,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "clip_vitb32 <-> clip_vitb16",
+      "tau": 0.744,
+      "regimes": {
+        "3": {
+          "s_local": 0.21,
+          "regime": "Convergent"
+        },
+        "5": {
+          "s_local": 0.2385,
+          "regime": "Convergent"
+        },
+        "10": {
+          "s_local": 0.2772,
+          "regime": "Convergent"
+        },
+        "20": {
+          "s_local": 0.3198,
+          "regime": "Convergent"
+        },
+        "50": {
+          "s_local": 0.3628,
+          "regime": "Convergent"
+        },
+        "100": {
+          "s_local": 0.3908,
+          "regime": "Convergent"
+        }
+      }
+    },
+    {
+      "pair": "resnet50 <-> resnet101",
+      "tau": 0.5445,
+      "regimes": {
+        "3": {
+          "s_local": 0.2516,
+          "regime": "Convergent"
+        },
+        "5": {
+          "s_local": 0.2773,
+          "regime": "Convergent"
+        },
+        "10": {
+          "s_local": 0.3195,
+          "regime": "Convergent"
+        },
+        "20": {
+          "s_local": 0.3596,
+          "regime": "Convergent"
+        },
+        "50": {
+          "s_local": 0.4033,
+          "regime": "Convergent"
+        },
+        "100": {
+          "s_local": 0.4345,
+          "regime": "Convergent"
+        }
+      }
+    },
+    {
+      "pair": "dinov2_vitb14 <-> dinov2_vitl14",
+      "tau": 0.4073,
+      "regimes": {
+        "3": {
+          "s_local": 0.4064,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.4478,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.5137,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.5763,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.6118,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.557,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "dinov2_vits14 <-> dinov2_vitg14",
+      "tau": 0.0995,
+      "regimes": {
+        "3": {
+          "s_local": 0.2672,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.297,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.344,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3937,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.4372,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.4279,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224 <-> vit_large_patch16_224",
+      "tau": 0.219,
+      "regimes": {
+        "3": {
+          "s_local": 0.2164,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2505,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.302,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3539,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3919,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.391,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "convnext_base <-> convnext_large",
+      "tau": 0.8475,
+      "regimes": {
+        "3": {
+          "s_local": 0.4646,
+          "regime": "Convergent"
+        },
+        "5": {
+          "s_local": 0.5117,
+          "regime": "Convergent"
+        },
+        "10": {
+          "s_local": 0.5692,
+          "regime": "Convergent"
+        },
+        "20": {
+          "s_local": 0.6283,
+          "regime": "Convergent"
+        },
+        "50": {
+          "s_local": 0.6683,
+          "regime": "Convergent"
+        },
+        "100": {
+          "s_local": 0.6563,
+          "regime": "Convergent"
+        }
+      }
+    },
+    {
+      "pair": "beit_base_patch16_224 <-> beit_large_patch16_224",
+      "tau": 0.3613,
+      "regimes": {
+        "3": {
+          "s_local": 0.1828,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2083,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.2376,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.2668,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3171,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.3589,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "dinov2_vitb14 <-> clip_vitb16",
+      "tau": 0.0449,
+      "regimes": {
+        "3": {
+          "s_local": 0.155,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.1826,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.2241,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.2726,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.31,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.3196,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "vit_base_patch16_224.mae <-> vit_base_patch16_224",
+      "tau": 0.0024,
+      "regimes": {
+        "3": {
+          "s_local": 0.0234,
+          "regime": "Divergent"
+        },
+        "5": {
+          "s_local": 0.0238,
+          "regime": "Divergent"
+        },
+        "10": {
+          "s_local": 0.0265,
+          "regime": "Divergent"
+        },
+        "20": {
+          "s_local": 0.0311,
+          "regime": "Divergent"
+        },
+        "50": {
+          "s_local": 0.0411,
+          "regime": "Divergent"
+        },
+        "100": {
+          "s_local": 0.0529,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "dinov2_vitb14 <-> resnet50",
+      "tau": 0.1525,
+      "regimes": {
+        "3": {
+          "s_local": 0.1419,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.1642,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.1933,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.2259,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.2589,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.277,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "clip_vitl14 <-> dinov2_vitl14",
+      "tau": 0.0297,
+      "regimes": {
+        "3": {
+          "s_local": 0.1832,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2176,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.2688,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3224,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3618,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.342,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "convnext_base <-> resnet101",
+      "tau": 0.3092,
+      "regimes": {
+        "3": {
+          "s_local": 0.229,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2583,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.3045,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3491,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3949,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.4167,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "mixer_b16_224 <-> vit_base_patch16_224",
+      "tau": 0.179,
+      "regimes": {
+        "3": {
+          "s_local": 0.1707,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.1923,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.2253,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.2628,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3037,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.3298,
+          "regime": "Local-Only"
+        }
+      }
+    },
+    {
+      "pair": "efficientnet_b0 <-> resnet50",
+      "tau": 0.4761,
+      "regimes": {
+        "3": {
+          "s_local": 0.235,
+          "regime": "Local-Only"
+        },
+        "5": {
+          "s_local": 0.2615,
+          "regime": "Local-Only"
+        },
+        "10": {
+          "s_local": 0.3,
+          "regime": "Local-Only"
+        },
+        "20": {
+          "s_local": 0.3377,
+          "regime": "Local-Only"
+        },
+        "50": {
+          "s_local": 0.3799,
+          "regime": "Local-Only"
+        },
+        "100": {
+          "s_local": 0.4087,
+          "regime": "Local-Only"
+        }
+      }
+    }
+  ]
+}

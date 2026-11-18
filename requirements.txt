@@ -1,0 +1,15 @@
+# Pinned versions for reproducibility (generated 2026-03-24)
+torch==2.10.0
+numpy==2.4.2
+scipy==1.17.1
+scikit-learn==1.8.0
+einops==0.8.2
+tqdm==4.67.3
+pyyaml>=6.0
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Dev tools
+ruff==0.15.4
+pyright==1.1.408
+pytest==9.0.2

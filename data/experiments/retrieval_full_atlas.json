@@ -1,0 +1,54 @@
+{
+  "n_pairs": 190,
+  "correlations": {
+    "s_local->knn_stitched": [
+      0.772,
+      8.4e-39
+    ],
+    "s_local->knn_retention": [
+      0.041,
+      0.58
+    ],
+    "s_local->ret_r10_retention": [
+      0.048,
+      0.51
+    ],
+    "s_global->knn_stitched": [
+      0.548,
+      2.7e-16
+    ],
+    "s_global->knn_retention": [
+      -0.048,
+      0.51
+    ],
+    "s_global->ret_r10_retention": [
+      -0.038,
+      0.6
+    ],
+    "delta->knn_stitched": [
+      -0.528,
+      5.2e-15
+    ],
+    "delta->knn_retention": [
+      0.057,
+      0.43
+    ],
+    "delta->ret_r10_retention": [
+      0.05,
+      0.49
+    ],
+    "tau->knn_stitched": [
+      0.506,
+      9.3e-14
+    ],
+    "tau->knn_retention": [
+      -0.048,
+      0.51
+    ],
+    "tau->ret_r10_retention": [
+      -0.046,
+      0.53
+    ]
+  },
+  "note": "informational full-atlas run; paper reports curated 20-pair subset"
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "pair": "clip_vitl14 \u00d7 convnext_base",
+    "perf_linear": 0.2581,
+    "perf_1-layer": 0.3289,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.0199,
+    "perf_3-layer": 0.2301,
+    "tau": {
+      "1-layer": 0.7849,
+      "2-layer": 0.0,
+      "2-layer-wide": 1.0,
+      "3-layer": 1.0
+    }
+  },
+  {
+    "pair": "clip_vitb32 \u00d7 clip_vitb16",
+    "perf_linear": 0.409,
+    "perf_1-layer": 0.5622,
+    "perf_2-layer": 0.1185,
+    "perf_2-layer-wide": 0.1845,
+    "perf_3-layer": 0.3189,
+    "tau": {
+      "1-layer": 0.7275,
+      "2-layer": 1.0,
+      "2-layer-wide": 1.0,
+      "3-layer": 1.0
+    }
+  },
+  {
+    "pair": "resnet50 \u00d7 vit_base_patch16_224",
+    "perf_linear": 0.2153,
+    "perf_1-layer": 0.0,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.0531,
+    "perf_3-layer": 0.0735,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 1.0,
+      "3-layer": 1.0
+    }
+  },
+  {
+    "pair": "dinov2_vitb14 \u00d7 clip_vitl14",
+    "perf_linear": 0.0,
+    "perf_1-layer": 0.3636,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.1125,
+    "perf_3-layer": 0.1866,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "dinov2_vitb14 \u00d7 resnet50",
+    "perf_linear": 0.0,
+    "perf_1-layer": 0.2698,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.1259,
+    "perf_3-layer": 0.3294,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "resnet50 \u00d7 mixer_b16_224",
+    "perf_linear": 0.1488,
+    "perf_1-layer": 0.0,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.0,
+    "perf_3-layer": 0.0,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "convnext_base \u00d7 mixer_b16_224",
+    "perf_linear": 0.0,
+    "perf_1-layer": 0.2105,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.0,
+    "perf_3-layer": 0.0046,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "dinov2_vitb14 \u00d7 vit_base_patch16_224.mae",
+    "perf_linear": 0.0,
+    "perf_1-layer": 0.6049,
+    "perf_2-layer": 0.5786,
+    "perf_2-layer-wide": 0.6315,
+    "perf_3-layer": 0.6563,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "clip_vitl14 \u00d7 vit_base_patch16_224.mae",
+    "perf_linear": 0.0,
+    "perf_1-layer": 0.6805,
+    "perf_2-layer": 0.6566,
+    "perf_2-layer-wide": 0.6941,
+    "perf_3-layer": 0.7201,
+    "tau": {
+      "1-layer": 0.0,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.0,
+      "3-layer": 0.0
+    }
+  },
+  {
+    "pair": "dinov2_vitb14 \u00d7 convnext_base",
+    "perf_linear": 0.0423,
+    "perf_1-layer": 0.3938,
+    "perf_2-layer": 0.0,
+    "perf_2-layer-wide": 0.2021,
+    "perf_3-layer": 0.2903,
+    "tau": {
+      "1-layer": 0.1073,
+      "2-layer": 0.0,
+      "2-layer-wide": 0.2091,
+      "3-layer": 0.1456
+    }
+  }
+]

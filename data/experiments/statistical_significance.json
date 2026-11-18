@@ -1,0 +1,88 @@
+{
+  "tau_mean_ci": [
+    0.1458,
+    0.1209,
+    0.1715
+  ],
+  "tau_median_ci": [
+    0.0721,
+    0.0416,
+    0.0924
+  ],
+  "s_local_mean_ci": [
+    0.196,
+    0.1783,
+    0.2135
+  ],
+  "s_local_median_ci": [
+    0.1945,
+    0.1755,
+    0.212
+  ],
+  "delta_mean_ci": [
+    1.6793,
+    1.4364,
+    1.9339
+  ],
+  "delta_median_ci": [
+    1.003,
+    0.868,
+    1.285
+  ],
+  "objective_effect": {
+    "cohens_d": 1.12,
+    "mann_whitney_p": 1.24e-06,
+    "same_obj_mean_ci": [
+      0.261,
+      0.2071,
+      0.3158
+    ],
+    "diff_obj_mean_ci": [
+      0.0831,
+      0.0654,
+      0.1024
+    ],
+    "n_same": 67,
+    "n_diff": 123,
+    "_provenance": "recomputed from atlas.json with standard same-objective grouping (self-sup/contrastive/supervised); supersedes stale d=1.63/n=55 which used an inconsistent grouping. Matches manuscript (d=1.12, n_cross=123)."
+  },
+  "family_effect": {
+    "cohens_d": 1.768,
+    "mann_whitney_p": 2.44e-07,
+    "same_fam_mean_ci": [
+      0.4052,
+      0.3025,
+      0.5101
+    ],
+    "diff_fam_mean_ci": [
+      0.1203,
+      0.098,
+      0.1438
+    ]
+  },
+  "spearman_delta_tau": {
+    "rho": -0.7135,
+    "ci_95": [
+      -0.7791,
+      -0.6316
+    ],
+    "p_value": 7.3e-31
+  },
+  "bonferroni_P1_spearman": {
+    "raw_p": 7.3e-31,
+    "corrected_p": 3.65e-30
+  },
+  "bonferroni_P4_objective": {
+    "raw_p": 4.23e-12,
+    "corrected_p": 2.11e-11
+  },
+  "bonferroni_P4_family": {
+    "raw_p": 2.44e-07,
+    "corrected_p": 1.22e-06
+  },
+  "op1_r2_ci": [
+    0.9237,
+    0.8468,
+    0.9866
+  ]
+}

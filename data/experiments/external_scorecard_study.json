@@ -1,0 +1,325 @@
+{
+  "description": "Scorecard case study on 5 external models x 3 anchors",
+  "anchors": [
+    {
+      "key": "dinov2_vitb14",
+      "name": "DINOv2-ViT-B",
+      "objective": "self-supervised"
+    },
+    {
+      "key": "clip_vitl14",
+      "name": "CLIP-ViT-L/14",
+      "objective": "contrastive"
+    },
+    {
+      "key": "resnet50",
+      "name": "ResNet-50",
+      "objective": "supervised"
+    }
+  ],
+  "external": [
+    {
+      "key": "siglip_base_p16_224",
+      "name": "SigLIP-B/16",
+      "objective": "contrastive"
+    },
+    {
+      "key": "convnextv2_base",
+      "name": "ConvNeXt-V2-B",
+      "objective": "supervised"
+    },
+    {
+      "key": "eva02_base_p14_224",
+      "name": "EVA02-B/14",
+      "objective": "self-supervised"
+    },
+    {
+      "key": "deit3_base_p16_224",
+      "name": "DeiT3-B/16",
+      "objective": "supervised"
+    },
+    {
+      "key": "dinov2_reg_base",
+      "name": "DINOv2+reg-B",
+      "objective": "self-supervised"
+    }
+  ],
+  "results": [
+    {
+      "external": "SigLIP-B/16",
+      "external_key": "siglip_base_p16_224",
+      "external_objective": "contrastive",
+      "anchor": "DINOv2-ViT-B",
+      "anchor_key": "dinov2_vitb14",
+      "anchor_objective": "self-supervised",
+      "bitrate_ext": 6.057,
+      "delta": 2.544,
+      "s_local": 0.0,
+      "s_global": 0.012,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.8156,
+      "knn_stitched": 0.0074,
+      "retention": 0.0091
+    },
+    {
+      "external": "SigLIP-B/16",
+      "external_key": "siglip_base_p16_224",
+      "external_objective": "contrastive",
+      "anchor": "CLIP-ViT-L/14",
+      "anchor_key": "clip_vitl14",
+      "anchor_objective": "contrastive",
+      "bitrate_ext": 6.057,
+      "delta": 1.386,
+      "s_local": 0.0,
+      "s_global": 0.007,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.7156,
+      "knn_stitched": 0.0076,
+      "retention": 0.0106
+    },
+    {
+      "external": "SigLIP-B/16",
+      "external_key": "siglip_base_p16_224",
+      "external_objective": "contrastive",
+      "anchor": "ResNet-50",
+      "anchor_key": "resnet50",
+      "anchor_objective": "supervised",
+      "bitrate_ext": 6.057,
+      "delta": 2.048,
+      "s_local": 0.0,
+      "s_global": 0.007,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.5144,
+      "knn_stitched": 0.009,
+      "retention": 0.0175
+    },
+    {
+      "external": "ConvNeXt-V2-B",
+      "external_key": "convnextv2_base",
+      "external_objective": "supervised",
+      "anchor": "DINOv2-ViT-B",
+      "anchor_key": "dinov2_vitb14",
+      "anchor_objective": "self-supervised",
+      "bitrate_ext": 8.181,
+      "delta": 0.419,
+      "s_local": 0.0,
+      "s_global": 0.029,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.8156,
+      "knn_stitched": 0.0082,
+      "retention": 0.0101
+    },
+    {
+      "external": "ConvNeXt-V2-B",
+      "external_key": "convnextv2_base",
+      "external_objective": "supervised",
+      "anchor": "CLIP-ViT-L/14",
+      "anchor_key": "clip_vitl14",
+      "anchor_objective": "contrastive",
+      "bitrate_ext": 8.181,
+      "delta": 0.739,
+      "s_local": 0.0,
+      "s_global": 0.016,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.7156,
+      "knn_stitched": 0.0096,
+      "retention": 0.0134
+    },
+    {
+      "external": "ConvNeXt-V2-B",
+      "external_key": "convnextv2_base",
+      "external_objective": "supervised",
+      "anchor": "ResNet-50",
+      "anchor_key": "resnet50",
+      "anchor_objective": "supervised",
+      "bitrate_ext": 8.181,
+      "delta": 0.076,
+      "s_local": 0.0,
+      "s_global": 0.018,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.5144,
+      "knn_stitched": 0.0084,
+      "retention": 0.0163
+    },
+    {
+      "external": "EVA02-B/14",
+      "external_key": "eva02_base_p14_224",
+      "external_objective": "self-supervised",
+      "anchor": "DINOv2-ViT-B",
+      "anchor_key": "dinov2_vitb14",
+      "anchor_objective": "self-supervised",
+      "bitrate_ext": 7.537,
+      "delta": 1.064,
+      "s_local": 0.0,
+      "s_global": 0.024,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.8156,
+      "knn_stitched": 0.0074,
+      "retention": 0.0091
+    },
+    {
+      "external": "EVA02-B/14",
+      "external_key": "eva02_base_p14_224",
+      "external_objective": "self-supervised",
+      "anchor": "CLIP-ViT-L/14",
+      "anchor_key": "clip_vitl14",
+      "anchor_objective": "contrastive",
+      "bitrate_ext": 7.537,
+      "delta": 0.095,
+      "s_local": 0.0,
+      "s_global": 0.013,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.7156,
+      "knn_stitched": 0.0082,
+      "retention": 0.0115
+    },
+    {
+      "external": "EVA02-B/14",
+      "external_key": "eva02_base_p14_224",
+      "external_objective": "self-supervised",
+      "anchor": "ResNet-50",
+      "anchor_key": "resnet50",
+      "anchor_objective": "supervised",
+      "bitrate_ext": 7.537,
+      "delta": 0.568,
+      "s_local": 0.0,
+      "s_global": 0.014,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.5144,
+      "knn_stitched": 0.0078,
+      "retention": 0.0152
+    },
+    {
+      "external": "DeiT3-B/16",
+      "external_key": "deit3_base_p16_224",
+      "external_objective": "supervised",
+      "anchor": "DINOv2-ViT-B",
+      "anchor_key": "dinov2_vitb14",
+      "anchor_objective": "self-supervised",
+      "bitrate_ext": 7.457,
+      "delta": 1.144,
+      "s_local": 0.0,
+      "s_global": 0.02,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.8156,
+      "knn_stitched": 0.007,
+      "retention": 0.0086
+    },
+    {
+      "external": "DeiT3-B/16",
+      "external_key": "deit3_base_p16_224",
+      "external_objective": "supervised",
+      "anchor": "CLIP-ViT-L/14",
+      "anchor_key": "clip_vitl14",
+      "anchor_objective": "contrastive",
+      "bitrate_ext": 7.457,
+      "delta": 0.015,
+      "s_local": 0.0,
+      "s_global": 0.011,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.7156,
+      "knn_stitched": 0.0086,
+      "retention": 0.012
+    },
+    {
+      "external": "DeiT3-B/16",
+      "external_key": "deit3_base_p16_224",
+      "external_objective": "supervised",
+      "anchor": "ResNet-50",
+      "anchor_key": "resnet50",
+      "anchor_objective": "supervised",
+      "bitrate_ext": 7.457,
+      "delta": 0.648,
+      "s_local": 0.0,
+      "s_global": 0.012,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.5144,
+      "knn_stitched": 0.0088,
+      "retention": 0.0171
+    },
+    {
+      "external": "DINOv2+reg-B",
+      "external_key": "dinov2_reg_base",
+      "external_objective": "self-supervised",
+      "anchor": "DINOv2-ViT-B",
+      "anchor_key": "dinov2_vitb14",
+      "anchor_objective": "self-supervised",
+      "bitrate_ext": 8.553,
+      "delta": 0.048,
+      "s_local": 0.0,
+      "s_global": 0.038,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.8156,
+      "knn_stitched": 0.0078,
+      "retention": 0.0096
+    },
+    {
+      "external": "DINOv2+reg-B",
+      "external_key": "dinov2_reg_base",
+      "external_objective": "self-supervised",
+      "anchor": "CLIP-ViT-L/14",
+      "anchor_key": "clip_vitl14",
+      "anchor_objective": "contrastive",
+      "bitrate_ext": 8.553,
+      "delta": 1.111,
+      "s_local": 0.0,
+      "s_global": 0.021,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.7156,
+      "knn_stitched": 0.0076,
+      "retention": 0.0106
+    },
+    {
+      "external": "DINOv2+reg-B",
+      "external_key": "dinov2_reg_base",
+      "external_objective": "self-supervised",
+      "anchor": "ResNet-50",
+      "anchor_key": "resnet50",
+      "anchor_objective": "supervised",
+      "bitrate_ext": 8.553,
+      "delta": 0.448,
+      "s_local": 0.0,
+      "s_global": 0.022,
+      "tau": 0.0,
+      "regime": "Divergent",
+      "knn_anchor": 0.5144,
+      "knn_stitched": 0.0078,
+      "retention": 0.0152
+    }
+  ],
+  "summary": {
+    "n_pairs": 15,
+    "n_external_models": 5,
+    "n_anchor_models": 3,
+    "regime_distribution": {
+      "Divergent": 15
+    },
+    "mean_retention": 0.0124,
+    "spearman_tau_retention": {
+      "rho": NaN,
+      "p": NaN
+    },
+    "spearman_slocal_retention": {
+      "rho": NaN,
+      "p": NaN
+    },
+    "spearman_sglobal_retention": {
+      "rho": -0.427,
+      "p": 0.113
+    }
+  }
+}

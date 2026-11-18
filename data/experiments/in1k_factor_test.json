@@ -1,0 +1,228 @@
+{
+ "pairs": [
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "vit_base_patch16_224.augreg_in1k",
+   "b": "vit_base_patch16_224.mae",
+   "tau": 0.0011,
+   "cka": 0.1507,
+   "r2_lin_ab": 0.0005,
+   "r2_mlp_ab": 0.4442,
+   "r2_lin_ba": 0.0345,
+   "r2_mlp_ba": 0.176,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "vit_base_patch16_224.augreg_in1k",
+   "b": "vit_base_patch16_224.dino",
+   "tau": 0.1521,
+   "cka": 0.607,
+   "r2_lin_ab": 0.0396,
+   "r2_mlp_ab": 0.2605,
+   "r2_lin_ba": 0.1478,
+   "r2_mlp_ba": 0.2627,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "deit_base_patch16_224.fb_in1k",
+   "b": "vit_base_patch16_224.mae",
+   "tau": 0.0029,
+   "cka": 0.1736,
+   "r2_lin_ab": 0.0013,
+   "r2_mlp_ab": 0.4503,
+   "r2_lin_ba": 0.033,
+   "r2_mlp_ba": 0.1452,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "deit_base_patch16_224.fb_in1k",
+   "b": "vit_base_patch16_224.dino",
+   "tau": 0.2186,
+   "cka": 0.6735,
+   "r2_lin_ab": 0.0634,
+   "r2_mlp_ab": 0.2898,
+   "r2_lin_ba": 0.1903,
+   "r2_mlp_ba": 0.2417,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "deit3_base_patch16_224.fb_in1k",
+   "b": "vit_base_patch16_224.mae",
+   "tau": 0.002,
+   "cka": 0.1135,
+   "r2_lin_ab": 0.0008,
+   "r2_mlp_ab": 0.3845,
+   "r2_lin_ba": 0.0195,
+   "r2_mlp_ba": 0.1263,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "deit3_base_patch16_224.fb_in1k",
+   "b": "vit_base_patch16_224.dino",
+   "tau": 0.1,
+   "cka": 0.585,
+   "r2_lin_ab": 0.1774,
+   "r2_mlp_ab": 0.27,
+   "r2_lin_ba": 0.0256,
+   "r2_mlp_ba": 0.2557,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "vit_base_patch16_224.sam_in1k",
+   "b": "vit_base_patch16_224.mae",
+   "tau": 0.0046,
+   "cka": 0.2766,
+   "r2_lin_ab": 0.0027,
+   "r2_mlp_ab": 0.5728,
+   "r2_lin_ba": 0.0579,
+   "r2_mlp_ba": 0.3361,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs SSL, ViT-B, IN-1k)",
+   "a": "vit_base_patch16_224.sam_in1k",
+   "b": "vit_base_patch16_224.dino",
+   "tau": 0.6222,
+   "cka": 0.7625,
+   "r2_lin_ab": 0.3017,
+   "r2_mlp_ab": 0.4252,
+   "r2_lin_ba": 0.2981,
+   "r2_mlp_ba": 0.4791,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (MAE vs DINO, ViT-B, IN-1k)",
+   "a": "vit_base_patch16_224.mae",
+   "b": "vit_base_patch16_224.dino",
+   "tau": 0.0042,
+   "cka": 0.2372,
+   "r2_lin_ab": 0.059,
+   "r2_mlp_ab": 0.3083,
+   "r2_lin_ba": 0.0025,
+   "r2_mlp_ba": 0.5993,
+   "mlp_underfit": false
+  },
+  {
+   "group": "objective (sup vs DINO, ViT-S, IN-1k)",
+   "a": "vit_small_patch16_224.augreg_in1k",
+   "b": "vit_small_patch16_224.dino",
+   "tau": 0.1337,
+   "cka": 0.6284,
+   "r2_lin_ab": 0.0488,
+   "r2_mlp_ab": 0.3652,
+   "r2_lin_ba": 0.2323,
+   "r2_mlp_ba": 0.381,
+   "mlp_underfit": false
+  },
+  {
+   "group": "data (IN-1k vs IN-21k, sup, same recipe)",
+   "a": "vit_base_patch16_224.augreg_in1k",
+   "b": "vit_base_patch16_224.augreg_in21k",
+   "tau": 0.1746,
+   "cka": 0.6018,
+   "r2_lin_ab": 0.0126,
+   "r2_mlp_ab": 0.0724,
+   "r2_lin_ba": 0.0565,
+   "r2_mlp_ba": 0.0877,
+   "mlp_underfit": false
+  },
+  {
+   "group": "data (IN-1k vs IN-21k, sup, same recipe)",
+   "a": "vit_small_patch16_224.augreg_in1k",
+   "b": "vit_small_patch16_224.augreg_in21k",
+   "tau": 0.1356,
+   "cka": 0.6227,
+   "r2_lin_ab": 0.027,
+   "r2_mlp_ab": 0.1993,
+   "r2_lin_ba": 0.1049,
+   "r2_mlp_ba": 0.2808,
+   "mlp_underfit": false
+  },
+  {
+   "group": "data (IN-1k vs IN-21k, sup, same recipe)",
+   "a": "convnext_base.fb_in1k",
+   "b": "convnext_base.fb_in22k",
+   "tau": 0.3556,
+   "cka": 0.6672,
+   "r2_lin_ab": 0.101,
+   "r2_mlp_ab": 0.1917,
+   "r2_lin_ba": 0.1202,
+   "r2_mlp_ba": 0.3381,
+   "mlp_underfit": false
+  },
+  {
+   "group": "recipe (AugReg vs orig, ViT-B, IN-21k)",
+   "a": "vit_base_patch16_224.augreg_in21k",
+   "b": "vit_base_patch16_224.orig_in21k",
+   "tau": 0.3914,
+   "cka": 0.427,
+   "r2_lin_ab": 0.0096,
+   "r2_mlp_ab": 0.0025,
+   "r2_lin_ba": 0.0121,
+   "r2_mlp_ba": 0.031,
+   "mlp_underfit": true
+  }
+ ],
+ "summary": {
+  "objective (sup vs SSL, ViT-B, IN-1k)": {
+   "n": 8,
+   "tau_mean": 0.1379,
+   "tau_values": [
+    0.0011,
+    0.1521,
+    0.0029,
+    0.2186,
+    0.002,
+    0.1,
+    0.0046,
+    0.6222
+   ]
+  },
+  "objective (MAE vs DINO, ViT-B, IN-1k)": {
+   "n": 1,
+   "tau_mean": 0.0042,
+   "tau_values": [
+    0.0042
+   ]
+  },
+  "objective (sup vs DINO, ViT-S, IN-1k)": {
+   "n": 1,
+   "tau_mean": 0.1337,
+   "tau_values": [
+    0.1337
+   ]
+  },
+  "data (IN-1k vs IN-21k, sup, same recipe)": {
+   "n": 3,
+   "tau_mean": 0.2219,
+   "tau_values": [
+    0.1746,
+    0.1356,
+    0.3556
+   ]
+  },
+  "recipe (AugReg vs orig, ViT-B, IN-21k)": {
+   "n": 1,
+   "tau_mean": 0.3914,
+   "tau_values": [
+    0.3914
+   ]
+  },
+  "reference: same-arch supervised recipes, IN-1k": {
+   "resnet50": {
+    "n": 10,
+    "tau_mean": 0.5177
+   },
+   "vit_b16": {
+    "n": 6,
+    "tau_mean": 0.1957
+   }
+  }
+ }
+}

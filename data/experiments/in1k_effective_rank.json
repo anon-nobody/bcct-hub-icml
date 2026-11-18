@@ -1,0 +1,30 @@
+{
+ "effective_rank": {
+  "convnext_base.fb_in1k": 225.1,
+  "convnext_base.fb_in22k": 389.4,
+  "convnext_small.fb_in1k": 203.8,
+  "deit3_base_patch16_224.fb_in1k": 175.0,
+  "deit_base_patch16_224.fb_in1k": 292.6,
+  "resnet50.a1_in1k": 275.2,
+  "resnet50.b1k_in1k": 442.4,
+  "resnet50.c1_in1k": 389.6,
+  "resnet50.d_in1k": 370.9,
+  "resnet50.gluon_in1k": 215.8,
+  "swin_base_patch4_window7_224.ms_in1k": 228.1,
+  "vit_base_patch16_224.augreg_in1k": 179.1,
+  "vit_base_patch16_224.augreg_in21k": 124.7,
+  "vit_base_patch16_224.dino": 225.3,
+  "vit_base_patch16_224.mae": 3.1,
+  "vit_base_patch16_224.orig_in21k": 409.9,
+  "vit_base_patch16_224.sam_in1k": 223.2,
+  "vit_small_patch16_224.augreg_in1k": 142.1,
+  "vit_small_patch16_224.augreg_in21k": 113.1,
+  "vit_small_patch16_224.dino": 148.8
+ },
+ "supervised_vitb16_range": [
+  175.0,
+  292.6
+ ],
+ "mae_vitb16": 3.1,
+ "dino_vitb16": 225.3
+}
